@@ -1,0 +1,1131 @@
+2021-05-19 15:34:13,725 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-19 15:34:13,727 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2021-05-19 15:34:13,727 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-19 15:34:13,728 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2021-05-19 15:34:13,728 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.dryrun.sqlite"
+2021-05-19 15:34:13,729 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-19 15:34:13,747 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-19 15:34:13,748 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-19 15:34:13,749 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-19 15:34:13,755 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-19 15:34:13,755 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-19 15:34:13,756 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-19 15:34:13,827 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-19 15:34:13,828 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-19 15:34:13,829 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-19 15:34:13,830 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-19 15:34:13,830 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-19 15:34:13,830 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-19 15:34:13,831 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-19 15:34:13,831 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-19 15:34:13,832 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-19 15:34:13,832 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-19 15:34:13,832 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-19 15:34:13,833 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-19 15:34:13,833 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-19 15:34:13,833 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-19 15:34:13,834 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-19 15:34:13,834 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-19 15:34:13,834 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-19 15:34:13,835 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-19 15:34:13,835 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-19 15:34:13,835 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-19 15:34:13,836 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-19 15:34:13,836 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-19 15:34:13,838 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-19 15:34:13,839 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-19 15:34:13,839 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-19 15:34:13,839 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-19 15:34:13,840 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-19 15:34:13,840 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-19 15:34:13,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-19 15:34:13,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-19 15:34:13,841 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-19 15:34:13,846 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2021-05-19 15:34:13,847 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-19 15:34:13,847 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-19 15:34:13,851 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-19 15:34:13,855 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-19 15:34:17,084 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-19 15:34:17,197 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 15:34:17,204 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-05-19 15:34:17,205 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-05-19 15:34:17,382 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-05-19 15:34:17,790 - apscheduler.scheduler - INFO - Scheduler started
+2021-05-19 15:34:17,857 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-05-19 15:34:17,858 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2021-05-19 15:34:18,711 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8081
+2021-05-19 15:34:18,712 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2021-05-19 15:34:18,712 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2021-05-19 15:34:18,712 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2021-05-19 15:34:18,734 - uvicorn.error - INFO - Started server process [1]
+2021-05-19 15:34:18,737 - uvicorn.error - INFO - Waiting for application startup.
+2021-05-19 15:34:18,739 - uvicorn.error - INFO - Application startup complete.
+2021-05-19 15:34:18,740 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2021-05-19 15:34:18,742 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-05-19 15:34:18,884 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-05-19 15:34:18,886 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-05-19 15:34:18,969 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `kraken`\n*Stake per trade:* `unlimited EUR`\n*Minimum ROI:* `{'0': 0.0125}`\n*Stoploss:* `-0.05`\n*Timeframe:* `1m`\n*Strategy:* `BinHV45`"}
+2021-05-19 15:34:19,032 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for EUR pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-05-19 15:35:54,474 - numexpr.utils - INFO - NumExpr defaulting to 1 threads.
+2021-05-19 15:35:55,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:36:37,587 - freqtrade.rpc.telegram - INFO - Executing handler: _stop for chat_id: 174903689
+2021-05-19 15:37:01,862 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 174903689
+2021-05-19 15:37:08,552 - freqtrade.rpc.telegram - INFO - Executing handler: _stop for chat_id: 174903689
+2021-05-19 15:37:22,300 - freqtrade.rpc.telegram - INFO - Executing handler: _help for chat_id: 174903689
+2021-05-19 15:37:25,199 - freqtrade.rpc.telegram - INFO - Executing handler: _show_config for chat_id: 174903689
+2021-05-19 15:37:30,222 - freqtrade.rpc.telegram - INFO - Executing handler: _start for chat_id: 174903689
+2021-05-19 15:37:37,071 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:38:07,455 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 174903689
+2021-05-19 15:38:39,227 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:40:37,068 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:42:34,703 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:43:36,904 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:45:37,599 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:47:38,553 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:49:39,498 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:51:40,409 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:53:41,239 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:55:39,071 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:57:39,963 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 15:59:34,692 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:00:39,794 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:02:37,622 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:03:36,251 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:03:36,255 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for DOT/EUR with stake_amount: 62.9210746857 ...
+2021-05-19 16:03:36,256 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 16:03:36,511 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:03:36,512 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 30, 'type': buy, 'exchange': 'Kraken', 'pair': 'DOT/EUR', 'limit': 21.42, 'order_type': 'limit', 'stake_amount': 62.9210746857, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.93749181, 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 36, 472418), 'current_rate': 21.42}
+2021-05-19 16:03:36,898 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:03:36,901 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for TBTC/EUR with stake_amount: 62.9210746857 ...
+2021-05-19 16:03:36,901 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 16:03:39,466 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:03:39,467 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 31, 'type': buy, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'limit': 31706.7, 'order_type': 'limit', 'stake_amount': 62.9210746857, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.00198447, 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 39, 449239), 'current_rate': 31706.7}
+2021-05-19 16:03:39,573 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:04:06,471 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 174903689
+2021-05-19 16:04:38,089 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=2021-05-19 16:03:36)
+2021-05-19 16:04:38,101 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=2021-05-19 16:03:36) [buy]: 0.10067372 EUR - rate: 0.0016
+2021-05-19 16:04:38,101 - freqtrade.persistence.models - INFO - Updating trade (id=30) ...
+2021-05-19 16:04:38,102 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=2021-05-19 16:03:36).
+2021-05-19 16:04:38,118 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 30, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'DOT/EUR', 'open_rate': 21.42, 'stake_amount': 62.9210746857, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.93749181, 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 36, 472418)}
+2021-05-19 16:04:38,119 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 16:04:38,123 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=2021-05-19 16:03:39)
+2021-05-19 16:04:38,127 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=2021-05-19 16:03:39) [buy]: 0.10067359 EUR - rate: 0.0016
+2021-05-19 16:04:38,128 - freqtrade.persistence.models - INFO - Updating trade (id=31) ...
+2021-05-19 16:04:38,129 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=2021-05-19 16:03:39).
+2021-05-19 16:04:38,140 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 31, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'open_rate': 31706.7, 'stake_amount': 62.9210746857, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.00198447, 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 39, 449239)}
+2021-05-19 16:04:38,141 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 16:04:38,339 - freqtrade.freqtradebot - INFO - Executing Sell for DOT/EUR. Reason: roi
+2021-05-19 16:04:38,360 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:04:38,389 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 30, 'exchange': 'Kraken', 'pair': 'DOT/EUR', 'gain': 'profit', 'limit': 22.1224, 'order_type': 'limit', 'amount': 2.93749181, 'open_rate': 21.42, 'close_rate': None, 'current_rate': 22.1224, 'profit_amount': 1.85864554, 'profit_ratio': 0.02949213, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 36, 472418), 'close_date': datetime.datetime(2021, 5, 19, 16, 4, 38, 389841), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:04:41,400 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:04:41,752 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:05:36,882 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=2021-05-19 16:03:36)
+2021-05-19 16:05:36,885 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=2021-05-19 16:03:36) [sell]: 0.10397499 EUR - rate: 0.0016
+2021-05-19 16:05:36,886 - freqtrade.persistence.models - INFO - Updating trade (id=30) ...
+2021-05-19 16:05:36,886 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=2021-05-19 16:03:36).
+2021-05-19 16:05:36,887 - freqtrade.persistence.models - INFO - Marking Trade(id=30, pair=DOT/EUR, amount=2.93749181, open_rate=21.42000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 16:05:36,895 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 30, 'exchange': 'Kraken', 'pair': 'DOT/EUR', 'gain': 'profit', 'limit': 22.1224, 'order_type': '', 'amount': 2.93749181, 'open_rate': 21.42, 'close_rate': 22.1224, 'current_rate': None, 'profit_amount': 1.85864554, 'profit_ratio': 0.02949213, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 36, 472418), 'close_date': datetime.datetime(2021, 5, 19, 16, 5, 36, 886995), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:05:36,896 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 16:05:36,900 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:06:36,711 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:07:38,491 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:09:36,289 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:11:37,429 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:12:39,405 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:12:39,407 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KSM/EUR with stake_amount: 63.53442771390001 ...
+2021-05-19 16:12:39,408 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 16:12:42,152 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:12:42,153 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 32, 'type': buy, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'limit': 336.09, 'order_type': 'limit', 'stake_amount': 63.53442771390001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.18903992, 'open_date': datetime.datetime(2021, 5, 19, 16, 12, 42, 132776), 'current_rate': 336.09}
+2021-05-19 16:12:42,354 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:13:34,486 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=2021-05-19 16:12:42)
+2021-05-19 16:13:34,489 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=2021-05-19 16:12:42) [buy]: 0.10165508 EUR - rate: 0.0016
+2021-05-19 16:13:34,490 - freqtrade.persistence.models - INFO - Updating trade (id=32) ...
+2021-05-19 16:13:34,490 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=2021-05-19 16:12:42).
+2021-05-19 16:13:34,497 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 32, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'open_rate': 336.09, 'stake_amount': 63.53442771390001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.18903992, 'open_date': datetime.datetime(2021, 5, 19, 16, 12, 42, 132776)}
+2021-05-19 16:13:34,498 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 16:13:37,840 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:13:37,843 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for OXT/EUR with stake_amount: 63.53442771390001 ...
+2021-05-19 16:13:37,844 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 16:13:40,750 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:13:40,751 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 33, 'type': buy, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'limit': 0.32386, 'order_type': 'limit', 'stake_amount': 63.53442771390001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 196.17868126, 'open_date': datetime.datetime(2021, 5, 19, 16, 13, 40, 733724), 'current_rate': 0.32386}
+2021-05-19 16:14:41,563 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=2021-05-19 16:13:40)
+2021-05-19 16:14:41,566 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=2021-05-19 16:13:40) [buy]: 0.10165508 EUR - rate: 0.0016
+2021-05-19 16:14:41,566 - freqtrade.persistence.models - INFO - Updating trade (id=33) ...
+2021-05-19 16:14:41,567 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=2021-05-19 16:13:40).
+2021-05-19 16:14:41,574 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 33, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'open_rate': 0.32386, 'stake_amount': 63.53442771390001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 196.17868126, 'open_date': datetime.datetime(2021, 5, 19, 16, 13, 40, 733724)}
+2021-05-19 16:14:41,575 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 16:14:47,761 - freqtrade.freqtradebot - INFO - Executing Sell for OXT/EUR. Reason: roi
+2021-05-19 16:14:47,777 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:14:47,801 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 33, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'gain': 'profit', 'limit': 0.32972, 'order_type': 'limit', 'amount': 196.17868126, 'open_rate': 0.32386, 'close_rate': None, 'current_rate': 0.32972, 'profit_amount': 0.94445753, 'profit_ratio': 0.01484154, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 13, 40, 733724), 'close_date': datetime.datetime(2021, 5, 19, 16, 14, 47, 800987), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:14:47,879 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:14:47,882 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:15:38,994 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=2021-05-19 16:13:40)
+2021-05-19 16:15:38,996 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=2021-05-19 16:13:40) [sell]: 0.10349446 EUR - rate: 0.0016
+2021-05-19 16:15:38,997 - freqtrade.persistence.models - INFO - Updating trade (id=33) ...
+2021-05-19 16:15:38,997 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=2021-05-19 16:13:40).
+2021-05-19 16:15:38,998 - freqtrade.persistence.models - INFO - Marking Trade(id=33, pair=OXT/EUR, amount=196.17868126, open_rate=0.32386000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 16:15:39,006 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 33, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'gain': 'profit', 'limit': 0.32972, 'order_type': '', 'amount': 196.17868126, 'open_rate': 0.32386, 'close_rate': 0.32972, 'current_rate': None, 'profit_amount': 0.94445753, 'profit_ratio': 0.01484154, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 13, 40, 733724), 'close_date': datetime.datetime(2021, 5, 19, 16, 15, 38, 998141), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:15:39,006 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 16:15:39,011 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:15:42,241 - freqtrade.freqtradebot - INFO - Executing Sell for KSM/EUR. Reason: roi
+2021-05-19 16:15:42,254 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:15:42,278 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 32, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 343.47, 'order_type': 'limit', 'amount': 0.18903992, 'open_rate': 336.09, 'close_rate': None, 'current_rate': 343.47, 'profit_amount': 1.18957226, 'profit_ratio': 0.01869336, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 12, 42, 132776), 'close_date': datetime.datetime(2021, 5, 19, 16, 15, 42, 278207), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:15:42,359 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:15:42,428 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:15:42,431 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for BAL/EUR with stake_amount: 63.846098698800006 ...
+2021-05-19 16:15:42,432 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 16:15:45,220 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:15:45,221 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 34, 'type': buy, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'limit': 30.72, 'order_type': 'limit', 'stake_amount': 63.846098698800006, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.07832352, 'open_date': datetime.datetime(2021, 5, 19, 16, 15, 45, 202509), 'current_rate': 30.72}
+2021-05-19 16:16:36,647 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=2021-05-19 16:12:42)
+2021-05-19 16:16:36,650 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=2021-05-19 16:12:42) [sell]: 0.10388727 EUR - rate: 0.0016
+2021-05-19 16:16:36,651 - freqtrade.persistence.models - INFO - Updating trade (id=32) ...
+2021-05-19 16:16:36,652 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=2021-05-19 16:12:42).
+2021-05-19 16:16:36,652 - freqtrade.persistence.models - INFO - Marking Trade(id=32, pair=KSM/EUR, amount=0.18903992, open_rate=336.09000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 16:16:36,663 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 32, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 343.47, 'order_type': '', 'amount': 0.18903992, 'open_rate': 336.09, 'close_rate': 343.47, 'current_rate': None, 'profit_amount': 1.18957226, 'profit_ratio': 0.01869336, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 12, 42, 132776), 'close_date': datetime.datetime(2021, 5, 19, 16, 16, 36, 652697), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:16:36,663 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 16:16:36,668 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:16:36,669 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=2021-05-19 16:15:45)
+2021-05-19 16:16:36,672 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=2021-05-19 16:15:45) [buy]: 0.10215376 EUR - rate: 0.0016
+2021-05-19 16:16:36,672 - freqtrade.persistence.models - INFO - Updating trade (id=34) ...
+2021-05-19 16:16:36,673 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=2021-05-19 16:15:45).
+2021-05-19 16:16:36,681 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 34, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'open_rate': 30.72, 'stake_amount': 63.846098698800006, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.07832352, 'open_date': datetime.datetime(2021, 5, 19, 16, 15, 45, 202509)}
+2021-05-19 16:16:36,682 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 16:16:39,873 - freqtrade.freqtradebot - INFO - Executing Sell for BAL/EUR. Reason: roi
+2021-05-19 16:16:39,889 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:16:39,915 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 34, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'profit', 'limit': 31.21, 'order_type': 'limit', 'amount': 2.07832352, 'open_rate': 30.72, 'close_rate': None, 'current_rate': 31.21, 'profit_amount': 0.8124416, 'profit_ratio': 0.01270467, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 15, 45, 202509), 'close_date': datetime.datetime(2021, 5, 19, 16, 16, 39, 915269), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:16:40,008 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:16:40,328 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:17:35,527 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=2021-05-19 16:15:45)
+2021-05-19 16:17:35,530 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=2021-05-19 16:15:45) [sell]: 0.10378316 EUR - rate: 0.0016
+2021-05-19 16:17:35,530 - freqtrade.persistence.models - INFO - Updating trade (id=34) ...
+2021-05-19 16:17:35,531 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=2021-05-19 16:15:45).
+2021-05-19 16:17:35,531 - freqtrade.persistence.models - INFO - Marking Trade(id=34, pair=BAL/EUR, amount=2.07832352, open_rate=30.72000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 16:17:35,543 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 34, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'profit', 'limit': 31.21, 'order_type': '', 'amount': 2.07832352, 'open_rate': 30.72, 'close_rate': 31.21, 'current_rate': None, 'profit_amount': 0.8124416, 'profit_ratio': 0.01270467, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 15, 45, 202509), 'close_date': datetime.datetime(2021, 5, 19, 16, 17, 35, 531574), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:17:35,544 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 16:17:35,552 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:17:35,858 - freqtrade.freqtradebot - INFO - Pair BAL/EUR is still locked until 2021-05-19 16:17:00 due to Auto lock.
+2021-05-19 16:18:35,143 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:19:37,197 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:21:41,115 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:23:38,785 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:25:39,632 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:27:37,593 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:29:38,303 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:31:39,322 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:33:37,032 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:34:38,697 - freqtrade.freqtradebot - INFO - Executing Sell for TBTC/EUR. Reason: roi
+2021-05-19 16:34:38,717 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:34:38,744 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 31, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'gain': 'profit', 'limit': 33500.0, 'order_type': 'limit', 'amount': 0.00198447, 'open_rate': 31706.7, 'close_rate': None, 'current_rate': 33500.0, 'profit_amount': 3.35170887, 'profit_ratio': 0.05318344, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 39, 449239), 'close_date': datetime.datetime(2021, 5, 19, 16, 34, 38, 744848), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:34:38,866 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:34:39,199 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:35:45,010 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=2021-05-19 16:03:39)
+2021-05-19 16:35:45,013 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=2021-05-19 16:03:39) [sell]: 0.10636759 EUR - rate: 0.0016
+2021-05-19 16:35:45,014 - freqtrade.persistence.models - INFO - Updating trade (id=31) ...
+2021-05-19 16:35:45,014 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=2021-05-19 16:03:39).
+2021-05-19 16:35:45,015 - freqtrade.persistence.models - INFO - Marking Trade(id=31, pair=TBTC/EUR, amount=0.00198447, open_rate=31706.70000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 16:35:45,026 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 31, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'gain': 'profit', 'limit': 33500.0, 'order_type': '', 'amount': 0.00198447, 'open_rate': 31706.7, 'close_rate': 33500.0, 'current_rate': None, 'profit_amount': 3.35170887, 'profit_ratio': 0.05318344, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 16, 3, 39, 449239), 'close_date': datetime.datetime(2021, 5, 19, 16, 35, 45, 14999), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 16:35:45,027 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 16:35:45,037 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 16:35:45,377 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:37:36,963 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:39:37,845 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:41:35,799 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:42:37,708 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:43:39,644 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:45:37,341 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:47:38,216 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:49:39,144 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:51:36,918 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:53:37,900 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:55:38,806 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:57:36,499 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 16:59:37,461 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:01:38,472 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:02:40,845 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:04:41,319 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:06:38,908 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:08:40,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:10:34,636 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:11:36,655 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:13:37,734 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:15:35,456 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:16:37,509 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:18:35,204 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:19:37,391 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:21:38,231 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:23:35,976 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:24:37,830 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:25:39,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:27:37,437 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:28:39,688 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:30:37,597 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:32:38,364 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:33:37,182 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:33:37,185 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for OXT/EUR with stake_amount: 65.61282719969999 ...
+2021-05-19 17:33:37,185 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 17:33:37,235 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:33:37,235 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 35, 'type': buy, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'limit': 0.34889, 'order_type': 'limit', 'stake_amount': 65.61282719969999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 188.06164464, 'open_date': datetime.datetime(2021, 5, 19, 17, 33, 37, 222163), 'current_rate': 0.34889}
+2021-05-19 17:34:39,049 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=2021-05-19 17:33:37)
+2021-05-19 17:34:39,051 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=2021-05-19 17:33:37) [buy]: 0.10498052 EUR - rate: 0.0016
+2021-05-19 17:34:39,052 - freqtrade.persistence.models - INFO - Updating trade (id=35) ...
+2021-05-19 17:34:39,052 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=2021-05-19 17:33:37).
+2021-05-19 17:34:39,063 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 35, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'open_rate': 0.34889, 'stake_amount': 65.61282719969999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 188.06164464, 'open_date': datetime.datetime(2021, 5, 19, 17, 33, 37, 222163)}
+2021-05-19 17:34:39,064 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 17:34:39,615 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:35:38,375 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:35:38,377 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for GNO/EUR with stake_amount: 65.6128271997 ...
+2021-05-19 17:35:38,378 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 17:35:41,148 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:35:41,149 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 36, 'type': buy, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'limit': 156.01, 'order_type': 'limit', 'stake_amount': 65.6128271997, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.42056808, 'open_date': datetime.datetime(2021, 5, 19, 17, 35, 41, 128705), 'current_rate': 156.01}
+2021-05-19 17:35:41,417 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:36:47,448 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=2021-05-19 17:35:41)
+2021-05-19 17:36:47,452 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=2021-05-19 17:35:41) [buy]: 0.10498052 EUR - rate: 0.0016
+2021-05-19 17:36:47,453 - freqtrade.persistence.models - INFO - Updating trade (id=36) ...
+2021-05-19 17:36:47,454 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=2021-05-19 17:35:41).
+2021-05-19 17:36:47,466 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 36, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'open_rate': 156.01, 'stake_amount': 65.6128271997, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.42056808, 'open_date': datetime.datetime(2021, 5, 19, 17, 35, 41, 128705)}
+2021-05-19 17:36:47,467 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 17:36:50,495 - freqtrade.freqtradebot - INFO - Executing Sell for GNO/EUR. Reason: roi
+2021-05-19 17:36:50,512 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:36:50,541 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 36, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 161.17, 'order_type': 'limit', 'amount': 0.42056808, 'open_rate': 156.01, 'close_rate': None, 'current_rate': 161.17, 'profit_amount': 1.95669804, 'profit_ratio': 0.02977424, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 17, 35, 41, 128705), 'close_date': datetime.datetime(2021, 5, 19, 17, 36, 50, 541433), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 17:36:50,673 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:36:50,976 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:37:36,898 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=2021-05-19 17:35:41)
+2021-05-19 17:37:36,901 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=2021-05-19 17:35:41) [sell]: 0.10845273 EUR - rate: 0.0016
+2021-05-19 17:37:36,901 - freqtrade.persistence.models - INFO - Updating trade (id=36) ...
+2021-05-19 17:37:36,902 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=2021-05-19 17:35:41).
+2021-05-19 17:37:36,902 - freqtrade.persistence.models - INFO - Marking Trade(id=36, pair=GNO/EUR, amount=0.42056808, open_rate=156.01000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 17:37:36,915 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 36, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 161.17, 'order_type': '', 'amount': 0.42056808, 'open_rate': 156.01, 'close_rate': 161.17, 'current_rate': None, 'profit_amount': 1.95669804, 'profit_ratio': 0.02977424, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 17, 35, 41, 128705), 'close_date': datetime.datetime(2021, 5, 19, 17, 37, 36, 902879), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 17:37:36,916 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 17:37:36,924 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:37:37,375 - freqtrade.freqtradebot - INFO - Pair GNO/EUR is still locked until 2021-05-19 17:37:00 due to Auto lock.
+2021-05-19 17:38:36,514 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:40:37,343 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:40:37,346 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for MLN/EUR with stake_amount: 66.25853755290001 ...
+2021-05-19 17:40:37,346 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 17:40:40,111 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:40:40,112 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 37, 'type': buy, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'limit': 58.837, 'order_type': 'limit', 'stake_amount': 66.25853755290001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.12613725, 'open_date': datetime.datetime(2021, 5, 19, 17, 40, 40, 93730), 'current_rate': 58.837}
+2021-05-19 17:40:40,286 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:41:35,765 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=2021-05-19 17:40:40)
+2021-05-19 17:41:35,768 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=2021-05-19 17:40:40) [buy]: 0.10601366 EUR - rate: 0.0016
+2021-05-19 17:41:35,769 - freqtrade.persistence.models - INFO - Updating trade (id=37) ...
+2021-05-19 17:41:35,769 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=2021-05-19 17:40:40).
+2021-05-19 17:41:35,778 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 37, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'open_rate': 58.837, 'stake_amount': 66.25853755290001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.12613725, 'open_date': datetime.datetime(2021, 5, 19, 17, 40, 40, 93730)}
+2021-05-19 17:41:35,779 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 17:41:39,445 - freqtrade.freqtradebot - INFO - Executing Sell for MLN/EUR. Reason: roi
+2021-05-19 17:41:39,461 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:41:39,485 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 37, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 59.942, 'order_type': 'limit', 'amount': 1.12613725, 'open_rate': 58.837, 'close_rate': None, 'current_rate': 59.942, 'profit_amount': 1.03036333, 'profit_ratio': 0.01552581, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 17, 40, 40, 93730), 'close_date': datetime.datetime(2021, 5, 19, 17, 41, 39, 485152), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 17:41:39,652 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:42:34,641 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=2021-05-19 17:40:40)
+2021-05-19 17:42:34,644 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=2021-05-19 17:40:40) [sell]: 0.10800467 EUR - rate: 0.0016
+2021-05-19 17:42:34,644 - freqtrade.persistence.models - INFO - Updating trade (id=37) ...
+2021-05-19 17:42:34,644 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=2021-05-19 17:40:40).
+2021-05-19 17:42:34,645 - freqtrade.persistence.models - INFO - Marking Trade(id=37, pair=MLN/EUR, amount=1.12613725, open_rate=58.83700000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 17:42:34,653 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 37, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 59.942, 'order_type': '', 'amount': 1.12613725, 'open_rate': 58.837, 'close_rate': 59.942, 'current_rate': None, 'profit_amount': 1.03036333, 'profit_ratio': 0.01552581, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 17, 40, 40, 93730), 'close_date': datetime.datetime(2021, 5, 19, 17, 42, 34, 645454), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 17:42:34,654 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 17:42:34,660 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:42:34,972 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:42:34,976 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for BAL/EUR with stake_amount: 66.5985574518 ...
+2021-05-19 17:42:34,977 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 17:42:37,702 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:42:37,703 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 38, 'type': buy, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'limit': 32.52, 'order_type': 'limit', 'stake_amount': 66.5985574518, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.04792612, 'open_date': datetime.datetime(2021, 5, 19, 17, 42, 37, 684871), 'current_rate': 32.52}
+2021-05-19 17:42:37,993 - freqtrade.freqtradebot - INFO - Pair MLN/EUR is still locked until 2021-05-19 17:42:00 due to Auto lock.
+2021-05-19 17:42:38,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:43:36,669 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=2021-05-19 17:42:37)
+2021-05-19 17:43:36,672 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=2021-05-19 17:42:37) [buy]: 0.10655769 EUR - rate: 0.0016
+2021-05-19 17:43:36,673 - freqtrade.persistence.models - INFO - Updating trade (id=38) ...
+2021-05-19 17:43:36,673 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=2021-05-19 17:42:37).
+2021-05-19 17:43:36,682 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 38, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'open_rate': 32.52, 'stake_amount': 66.5985574518, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.04792612, 'open_date': datetime.datetime(2021, 5, 19, 17, 42, 37, 684871)}
+2021-05-19 17:43:36,683 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 17:43:40,211 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:44:38,881 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:44:38,885 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for ALGO/EUR with stake_amount: 66.5985574518 ...
+2021-05-19 17:44:38,886 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 17:44:41,873 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 17:44:41,874 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 39, 'type': buy, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'limit': 0.86503, 'order_type': 'limit', 'stake_amount': 66.5985574518, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 76.98988179, 'open_date': datetime.datetime(2021, 5, 19, 17, 44, 41, 855412), 'current_rate': 0.86503}
+2021-05-19 17:44:42,142 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:45:36,329 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=2021-05-19 17:44:41)
+2021-05-19 17:45:36,332 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=2021-05-19 17:44:41) [buy]: 0.10655769 EUR - rate: 0.0016
+2021-05-19 17:45:36,332 - freqtrade.persistence.models - INFO - Updating trade (id=39) ...
+2021-05-19 17:45:36,333 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=2021-05-19 17:44:41).
+2021-05-19 17:45:36,344 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 39, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'open_rate': 0.86503, 'stake_amount': 66.5985574518, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 76.98988179, 'open_date': datetime.datetime(2021, 5, 19, 17, 44, 41, 855412)}
+2021-05-19 17:45:36,345 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 17:45:42,570 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:46:43,098 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:47:43,586 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:48:44,038 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:49:44,297 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:50:44,596 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:51:45,512 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:53:43,297 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:54:43,685 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:55:44,166 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:56:44,591 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:57:45,021 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 17:59:43,201 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:00:43,813 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:01:44,212 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:02:44,600 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:03:45,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:05:42,903 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:06:43,227 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:07:43,591 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:08:44,088 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:09:47,773 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:11:39,515 - freqtrade.freqtradebot - INFO - Executing Sell for OXT/EUR. Reason: stop_loss
+2021-05-19 18:11:39,534 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:11:39,565 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 35, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'gain': 'loss', 'limit': 0.33064, 'order_type': 'limit', 'amount': 188.06164464, 'open_rate': 0.34889, 'close_rate': None, 'current_rate': 0.33064, 'profit_amount': -3.63659466, 'profit_ratio': -0.05533652, 'sell_reason': 'stop_loss', 'open_date': datetime.datetime(2021, 5, 19, 17, 33, 37, 222163), 'close_date': datetime.datetime(2021, 5, 19, 18, 11, 39, 565603), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:11:45,335 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:11:45,339 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:12:36,532 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=2021-05-19 17:33:37)
+2021-05-19 18:12:36,535 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=2021-05-19 17:33:37) [sell]: 0.099489123 EUR - rate: 0.0016
+2021-05-19 18:12:36,536 - freqtrade.persistence.models - INFO - Updating trade (id=35) ...
+2021-05-19 18:12:36,536 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=2021-05-19 17:33:37).
+2021-05-19 18:12:36,537 - freqtrade.persistence.models - INFO - Marking Trade(id=35, pair=OXT/EUR, amount=188.06164464, open_rate=0.34889000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:12:36,545 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 35, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'gain': 'loss', 'limit': 0.33064, 'order_type': '', 'amount': 188.06164464, 'open_rate': 0.34889, 'close_rate': 0.33064, 'current_rate': None, 'profit_amount': -3.63659466, 'profit_ratio': -0.05533652, 'sell_reason': 'stop_loss', 'open_date': datetime.datetime(2021, 5, 19, 17, 33, 37, 222163), 'close_date': datetime.datetime(2021, 5, 19, 18, 12, 36, 537224), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:12:36,546 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:12:36,551 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:12:40,011 - freqtrade.freqtradebot - INFO - Pair OXT/EUR is still locked until 2021-05-19 18:12:00 due to Auto lock.
+2021-05-19 18:13:38,802 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:13:38,805 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KEEP/EUR with stake_amount: 62.99832873839998 ...
+2021-05-19 18:13:38,805 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:13:41,613 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:13:41,614 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 40, 'type': buy, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'limit': 0.28303, 'order_type': 'limit', 'stake_amount': 62.99832873839998, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 222.58533985, 'open_date': datetime.datetime(2021, 5, 19, 18, 13, 41, 593058), 'current_rate': 0.28303}
+2021-05-19 18:13:41,811 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:14:39,233 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=2021-05-19 18:13:41)
+2021-05-19 18:14:39,236 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=2021-05-19 18:13:41) [buy]: 0.10079733 EUR - rate: 0.0016
+2021-05-19 18:14:39,237 - freqtrade.persistence.models - INFO - Updating trade (id=40) ...
+2021-05-19 18:14:39,237 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=2021-05-19 18:13:41).
+2021-05-19 18:14:39,249 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 40, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'open_rate': 0.28303, 'stake_amount': 62.99832873839998, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 222.58533985, 'open_date': datetime.datetime(2021, 5, 19, 18, 13, 41, 593058)}
+2021-05-19 18:14:39,250 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:14:45,449 - freqtrade.freqtradebot - INFO - Executing Sell for KEEP/EUR. Reason: roi
+2021-05-19 18:14:45,466 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:14:45,494 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 40, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'gain': 'profit', 'limit': 0.31599, 'order_type': 'limit', 'amount': 222.58533985, 'open_rate': 0.28303, 'close_rate': None, 'current_rate': 0.31599, 'profit_amount': 7.12307989, 'profit_ratio': 0.11288714, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 13, 41, 593058), 'close_date': datetime.datetime(2021, 5, 19, 18, 14, 45, 494066), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:14:45,563 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:14:45,569 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:15:36,779 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=2021-05-19 18:13:41)
+2021-05-19 18:15:36,782 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=2021-05-19 18:13:41) [sell]: 0.11253559 EUR - rate: 0.0016
+2021-05-19 18:15:36,782 - freqtrade.persistence.models - INFO - Updating trade (id=40) ...
+2021-05-19 18:15:36,783 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=2021-05-19 18:13:41).
+2021-05-19 18:15:36,784 - freqtrade.persistence.models - INFO - Marking Trade(id=40, pair=KEEP/EUR, amount=222.58533985, open_rate=0.28303000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:15:36,793 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 40, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'gain': 'profit', 'limit': 0.31599, 'order_type': '', 'amount': 222.58533985, 'open_rate': 0.28303, 'close_rate': 0.31599, 'current_rate': None, 'profit_amount': 7.12307989, 'profit_ratio': 0.11288714, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 13, 41, 593058), 'close_date': datetime.datetime(2021, 5, 19, 18, 15, 36, 784045), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:15:36,794 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:15:36,800 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:15:36,822 - freqtrade.freqtradebot - INFO - Executing Sell for BAL/EUR. Reason: stop_loss
+2021-05-19 18:15:36,849 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:15:36,887 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 38, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'loss', 'limit': 30.8, 'order_type': 'limit', 'amount': 2.04792612, 'open_rate': 32.52, 'close_rate': None, 'current_rate': 30.8, 'profit_amount': -3.72991242, 'profit_ratio': -0.05591644, 'sell_reason': 'stop_loss', 'open_date': datetime.datetime(2021, 5, 19, 17, 42, 37, 684871), 'close_date': datetime.datetime(2021, 5, 19, 18, 15, 36, 887483), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:15:40,064 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:15:40,249 - freqtrade.freqtradebot - INFO - Pair KEEP/EUR is still locked until 2021-05-19 18:15:00 due to Auto lock.
+2021-05-19 18:16:38,400 - freqtrade.strategy.interface - WARNING - Empty candle (OHLCV) data for pair FIL/EUR
+2021-05-19 18:16:38,680 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=2021-05-19 17:42:37)
+2021-05-19 18:16:38,683 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=2021-05-19 17:42:37) [sell]: 0.1009218 EUR - rate: 0.0016
+2021-05-19 18:16:38,683 - freqtrade.persistence.models - INFO - Updating trade (id=38) ...
+2021-05-19 18:16:38,684 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=2021-05-19 17:42:37).
+2021-05-19 18:16:38,684 - freqtrade.persistence.models - INFO - Marking Trade(id=38, pair=BAL/EUR, amount=2.04792612, open_rate=32.52000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:16:38,696 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 38, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'loss', 'limit': 30.8, 'order_type': '', 'amount': 2.04792612, 'open_rate': 32.52, 'close_rate': 30.8, 'current_rate': None, 'profit_amount': -3.72991242, 'profit_ratio': -0.05591644, 'sell_reason': 'stop_loss', 'open_date': datetime.datetime(2021, 5, 19, 17, 42, 37, 684871), 'close_date': datetime.datetime(2021, 5, 19, 18, 16, 38, 684701), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:16:38,697 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:16:38,710 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:16:38,951 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:16:38,954 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KSM/EUR with stake_amount: 66.5182264791 ...
+2021-05-19 18:16:38,954 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:16:41,764 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:16:41,765 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 41, 'type': buy, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'limit': 361.95, 'order_type': 'limit', 'stake_amount': 66.5182264791, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.18377739, 'open_date': datetime.datetime(2021, 5, 19, 18, 16, 41, 747138), 'current_rate': 361.95}
+2021-05-19 18:16:41,983 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:17:37,656 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=2021-05-19 18:16:41)
+2021-05-19 18:17:37,659 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=2021-05-19 18:16:41) [buy]: 0.10642916 EUR - rate: 0.0016
+2021-05-19 18:17:37,660 - freqtrade.persistence.models - INFO - Updating trade (id=41) ...
+2021-05-19 18:17:37,660 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=2021-05-19 18:16:41).
+2021-05-19 18:17:37,671 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 41, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'open_rate': 361.95, 'stake_amount': 66.5182264791, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.18377739, 'open_date': datetime.datetime(2021, 5, 19, 18, 16, 41, 747138)}
+2021-05-19 18:17:37,673 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:17:41,050 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:17:41,053 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for GNO/EUR with stake_amount: 66.4378955064 ...
+2021-05-19 18:17:41,054 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:17:43,890 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:17:43,891 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 42, 'type': buy, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'limit': 145.09, 'order_type': 'limit', 'stake_amount': 66.4378955064, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.45790816, 'open_date': datetime.datetime(2021, 5, 19, 18, 17, 43, 872869), 'current_rate': 145.09}
+2021-05-19 18:17:44,157 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:18:38,409 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=2021-05-19 18:17:43)
+2021-05-19 18:18:38,413 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=2021-05-19 18:17:43) [buy]: 0.10630063 EUR - rate: 0.0016
+2021-05-19 18:18:38,413 - freqtrade.persistence.models - INFO - Updating trade (id=42) ...
+2021-05-19 18:18:38,414 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=2021-05-19 18:17:43).
+2021-05-19 18:18:38,422 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 42, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'open_rate': 145.09, 'stake_amount': 66.4378955064, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.45790816, 'open_date': datetime.datetime(2021, 5, 19, 18, 17, 43, 872869)}
+2021-05-19 18:18:38,423 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:18:44,458 - freqtrade.freqtradebot - INFO - Executing Sell for GNO/EUR. Reason: roi
+2021-05-19 18:18:44,480 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:18:44,512 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 42, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 149.53, 'order_type': 'limit', 'amount': 0.45790816, 'open_rate': 145.09, 'close_rate': None, 'current_rate': 149.53, 'profit_amount': 1.81725799, 'profit_ratio': 0.02730904, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 17, 43, 872869), 'close_date': datetime.datetime(2021, 5, 19, 18, 18, 44, 512523), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:18:44,616 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:18:44,619 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:19:38,655 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=2021-05-19 18:17:43)
+2021-05-19 18:19:38,658 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=2021-05-19 18:17:43) [sell]: 0.10955361 EUR - rate: 0.0016
+2021-05-19 18:19:38,659 - freqtrade.persistence.models - INFO - Updating trade (id=42) ...
+2021-05-19 18:19:38,660 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=2021-05-19 18:17:43).
+2021-05-19 18:19:38,660 - freqtrade.persistence.models - INFO - Marking Trade(id=42, pair=GNO/EUR, amount=0.45790816, open_rate=145.09000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:19:38,668 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 42, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 149.53, 'order_type': '', 'amount': 0.45790816, 'open_rate': 145.09, 'close_rate': 149.53, 'current_rate': None, 'profit_amount': 1.81725799, 'profit_ratio': 0.02730904, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 17, 43, 872869), 'close_date': datetime.datetime(2021, 5, 19, 18, 19, 38, 660455), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:19:38,669 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:19:38,675 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:19:42,107 - freqtrade.freqtradebot - INFO - Pair GNO/EUR is still locked until 2021-05-19 18:19:00 due to Auto lock.
+2021-05-19 18:19:42,150 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:19:42,153 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KEEP/EUR with stake_amount: 67.1179216158 ...
+2021-05-19 18:19:42,154 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:19:44,722 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:19:44,723 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 43, 'type': buy, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'limit': 0.28501, 'order_type': 'limit', 'stake_amount': 67.1179216158, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 235.49321643, 'open_date': datetime.datetime(2021, 5, 19, 18, 19, 44, 704040), 'current_rate': 0.28501}
+2021-05-19 18:19:44,904 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:20:35,951 - freqtrade.strategy.interface - WARNING - Empty candle (OHLCV) data for pair TRX/EUR
+2021-05-19 18:20:35,986 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=2021-05-19 18:19:44)
+2021-05-19 18:20:35,989 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=2021-05-19 18:19:44) [buy]: 0.10738867 EUR - rate: 0.0016
+2021-05-19 18:20:35,990 - freqtrade.persistence.models - INFO - Updating trade (id=43) ...
+2021-05-19 18:20:35,990 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=2021-05-19 18:19:44).
+2021-05-19 18:20:35,999 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 43, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'open_rate': 0.28501, 'stake_amount': 67.1179216158, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 235.49321643, 'open_date': datetime.datetime(2021, 5, 19, 18, 19, 44, 704040)}
+2021-05-19 18:20:36,000 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:20:42,029 - freqtrade.freqtradebot - INFO - Executing Sell for KEEP/EUR. Reason: roi
+2021-05-19 18:20:42,046 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:20:42,072 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 43, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'gain': 'profit', 'limit': 0.29799, 'order_type': 'limit', 'amount': 235.49321643, 'open_rate': 0.28501, 'close_rate': None, 'current_rate': 0.29799, 'profit_amount': 2.83703388, 'profit_ratio': 0.04220187, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 19, 44, 704040), 'close_date': datetime.datetime(2021, 5, 19, 18, 20, 42, 72812), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:20:42,181 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:21:36,430 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=2021-05-19 18:19:44)
+2021-05-19 18:21:36,432 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=2021-05-19 18:19:44) [sell]: 0.1122794 EUR - rate: 0.0016
+2021-05-19 18:21:36,433 - freqtrade.persistence.models - INFO - Updating trade (id=43) ...
+2021-05-19 18:21:36,433 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=2021-05-19 18:19:44).
+2021-05-19 18:21:36,434 - freqtrade.persistence.models - INFO - Marking Trade(id=43, pair=KEEP/EUR, amount=235.49321643, open_rate=0.28501000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:21:36,444 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 43, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'gain': 'profit', 'limit': 0.29799, 'order_type': '', 'amount': 235.49321643, 'open_rate': 0.28501, 'close_rate': 0.29799, 'current_rate': None, 'profit_amount': 2.83703388, 'profit_ratio': 0.04220187, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 19, 44, 704040), 'close_date': datetime.datetime(2021, 5, 19, 18, 21, 36, 434351), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:21:36,444 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:21:36,450 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:21:39,693 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:21:39,696 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for AAVE/EUR with stake_amount: 68.0541427962 ...
+2021-05-19 18:21:39,696 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:21:42,656 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:21:42,657 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 44, 'type': buy, 'exchange': 'Kraken', 'pair': 'AAVE/EUR', 'limit': 392.15, 'order_type': 'limit', 'stake_amount': 68.0541427962, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.1735411, 'open_date': datetime.datetime(2021, 5, 19, 18, 21, 42, 637252), 'current_rate': 392.15}
+2021-05-19 18:21:42,857 - freqtrade.freqtradebot - INFO - Pair KEEP/EUR is still locked until 2021-05-19 18:21:00 due to Auto lock.
+2021-05-19 18:21:42,946 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:22:37,731 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=2021-05-19 18:21:42)
+2021-05-19 18:22:37,733 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=2021-05-19 18:21:42) [buy]: 0.10888663 EUR - rate: 0.0016
+2021-05-19 18:22:37,734 - freqtrade.persistence.models - INFO - Updating trade (id=44) ...
+2021-05-19 18:22:37,734 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=2021-05-19 18:21:42).
+2021-05-19 18:22:37,743 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 44, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'AAVE/EUR', 'open_rate': 392.15, 'stake_amount': 68.0541427962, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.1735411, 'open_date': datetime.datetime(2021, 5, 19, 18, 21, 42, 637252)}
+2021-05-19 18:22:37,744 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:22:43,796 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:23:41,287 - freqtrade.freqtradebot - INFO - Executing Sell for KSM/EUR. Reason: roi
+2021-05-19 18:23:41,304 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:23:41,332 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 41, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 370.35, 'order_type': 'limit', 'amount': 0.18377739, 'open_rate': 361.95, 'close_rate': None, 'current_rate': 370.35, 'profit_amount': 1.32840178, 'profit_ratio': 0.01993859, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 16, 41, 747138), 'close_date': datetime.datetime(2021, 5, 19, 18, 23, 41, 332185), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:23:44,110 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:23:44,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:24:38,368 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=2021-05-19 18:16:41)
+2021-05-19 18:24:38,371 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=2021-05-19 18:16:41) [sell]: 0.10889913 EUR - rate: 0.0016
+2021-05-19 18:24:38,372 - freqtrade.persistence.models - INFO - Updating trade (id=41) ...
+2021-05-19 18:24:38,372 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=2021-05-19 18:16:41).
+2021-05-19 18:24:38,373 - freqtrade.persistence.models - INFO - Marking Trade(id=41, pair=KSM/EUR, amount=0.18377739, open_rate=361.95000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:24:38,382 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 41, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 370.35, 'order_type': '', 'amount': 0.18377739, 'open_rate': 361.95, 'close_rate': 370.35, 'current_rate': None, 'profit_amount': 1.32840178, 'profit_ratio': 0.01993859, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 16, 41, 747138), 'close_date': datetime.datetime(2021, 5, 19, 18, 24, 38, 373228), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:24:38,383 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:24:38,389 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:24:41,418 - freqtrade.freqtradebot - INFO - Executing Sell for AAVE/EUR. Reason: roi
+2021-05-19 18:24:41,437 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:24:41,464 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 44, 'exchange': 'Kraken', 'pair': 'AAVE/EUR', 'gain': 'profit', 'limit': 398.85, 'order_type': 'limit', 'amount': 0.1735411, 'open_rate': 392.15, 'close_rate': None, 'current_rate': 398.85, 'profit_amount': 0.94309175, 'profit_ratio': 0.01383583, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 21, 42, 637252), 'close_date': datetime.datetime(2021, 5, 19, 18, 24, 41, 464848), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:24:41,538 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:24:41,822 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:24:41,825 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for TBTC/EUR with stake_amount: 68.4925153836 ...
+2021-05-19 18:24:41,825 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:24:44,436 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:24:44,437 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 45, 'type': buy, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'limit': 31738.4, 'order_type': 'limit', 'stake_amount': 68.4925153836, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.00215803, 'open_date': datetime.datetime(2021, 5, 19, 18, 24, 44, 417258), 'current_rate': 31738.4}
+2021-05-19 18:24:44,530 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:25:38,802 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=2021-05-19 18:21:42)
+2021-05-19 18:25:38,805 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=2021-05-19 18:21:42) [sell]: 0.11074699 EUR - rate: 0.0016
+2021-05-19 18:25:38,806 - freqtrade.persistence.models - INFO - Updating trade (id=44) ...
+2021-05-19 18:25:38,806 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=2021-05-19 18:21:42).
+2021-05-19 18:25:38,807 - freqtrade.persistence.models - INFO - Marking Trade(id=44, pair=AAVE/EUR, amount=0.17354110, open_rate=392.15000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:25:38,817 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 44, 'exchange': 'Kraken', 'pair': 'AAVE/EUR', 'gain': 'profit', 'limit': 398.85, 'order_type': '', 'amount': 0.1735411, 'open_rate': 392.15, 'close_rate': 398.85, 'current_rate': None, 'profit_amount': 0.94309175, 'profit_ratio': 0.01383583, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 21, 42, 637252), 'close_date': datetime.datetime(2021, 5, 19, 18, 25, 38, 807120), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:25:38,818 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:25:38,828 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:25:38,829 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=2021-05-19 18:24:44)
+2021-05-19 18:25:38,833 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=2021-05-19 18:24:44) [buy]: 0.10958787 EUR - rate: 0.0016
+2021-05-19 18:25:38,833 - freqtrade.persistence.models - INFO - Updating trade (id=45) ...
+2021-05-19 18:25:38,834 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=2021-05-19 18:24:44).
+2021-05-19 18:25:38,846 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 45, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'open_rate': 31738.4, 'stake_amount': 68.4925153836, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.00215803, 'open_date': datetime.datetime(2021, 5, 19, 18, 24, 44, 417258)}
+2021-05-19 18:25:38,847 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:25:41,879 - freqtrade.freqtradebot - INFO - Executing Sell for TBTC/EUR. Reason: roi
+2021-05-19 18:25:41,894 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:25:41,917 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 45, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'gain': 'profit', 'limit': 32673.6, 'order_type': 'limit', 'amount': 0.00215803, 'open_rate': 31738.4, 'close_rate': None, 'current_rate': 32673.6, 'profit_amount': 1.79578481, 'profit_ratio': 0.02617686, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 24, 44, 417258), 'close_date': datetime.datetime(2021, 5, 19, 18, 25, 41, 917728), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:25:41,999 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:26:35,124 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=2021-05-19 18:24:44)
+2021-05-19 18:26:35,126 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=2021-05-19 18:24:44) [sell]: 0.11281697 EUR - rate: 0.0016
+2021-05-19 18:26:35,127 - freqtrade.persistence.models - INFO - Updating trade (id=45) ...
+2021-05-19 18:26:35,127 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=2021-05-19 18:24:44).
+2021-05-19 18:26:35,128 - freqtrade.persistence.models - INFO - Marking Trade(id=45, pair=TBTC/EUR, amount=0.00215803, open_rate=31738.40000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:26:35,138 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 45, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'gain': 'profit', 'limit': 32673.6, 'order_type': '', 'amount': 0.00215803, 'open_rate': 31738.4, 'close_rate': 32673.6, 'current_rate': None, 'profit_amount': 1.79578481, 'profit_ratio': 0.02617686, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 24, 44, 417258), 'close_date': datetime.datetime(2021, 5, 19, 18, 26, 35, 128127), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:26:35,139 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:26:35,148 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:26:35,654 - freqtrade.freqtradebot - INFO - Pair TBTC/EUR is still locked until 2021-05-19 18:26:00 due to Auto lock.
+2021-05-19 18:26:35,686 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:27:37,650 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:29:38,071 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:30:39,749 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:32:37,928 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:34:35,802 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:35:41,191 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:37:42,940 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:39:37,854 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:39:37,857 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for MLN/EUR with stake_amount: 69.39634464839999 ...
+2021-05-19 18:39:37,857 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:39:40,444 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:39:40,445 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 46, 'type': buy, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'limit': 55.703, 'order_type': 'limit', 'stake_amount': 69.39634464839999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.24582777, 'open_date': datetime.datetime(2021, 5, 19, 18, 39, 40, 425466), 'current_rate': 55.703}
+2021-05-19 18:39:40,632 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:40:36,180 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=2021-05-19 18:39:40)
+2021-05-19 18:40:36,183 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=2021-05-19 18:39:40) [buy]: 0.11103415 EUR - rate: 0.0016
+2021-05-19 18:40:36,184 - freqtrade.persistence.models - INFO - Updating trade (id=46) ...
+2021-05-19 18:40:36,185 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=2021-05-19 18:39:40).
+2021-05-19 18:40:36,195 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 46, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'open_rate': 55.703, 'stake_amount': 69.39634464839999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.24582777, 'open_date': datetime.datetime(2021, 5, 19, 18, 39, 40, 425466)}
+2021-05-19 18:40:36,196 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:41:38,644 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:42:40,698 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:43:42,529 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:44:15,264 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 174903689
+2021-05-19 18:44:34,891 - freqtrade.freqtradebot - INFO - Executing Sell for ALGO/EUR. Reason: stop_loss
+2021-05-19 18:44:34,908 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:44:34,936 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 39, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'gain': 'loss', 'limit': 0.81719, 'order_type': 'limit', 'amount': 76.98988179, 'open_rate': 0.86503, 'close_rate': None, 'current_rate': 0.81719, 'profit_amount': -3.89041822, 'profit_ratio': -0.05832264, 'sell_reason': 'stop_loss', 'open_date': datetime.datetime(2021, 5, 19, 17, 44, 41, 855412), 'close_date': datetime.datetime(2021, 5, 19, 18, 44, 34, 936809), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:44:38,094 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:44:38,160 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:44:38,163 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for BAL/EUR with stake_amount: 69.3963446484 ...
+2021-05-19 18:44:38,164 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 18:44:41,117 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:44:41,118 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 47, 'type': buy, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'limit': 29.3, 'order_type': 'limit', 'stake_amount': 69.3963446484, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.36847592, 'open_date': datetime.datetime(2021, 5, 19, 18, 44, 41, 98912), 'current_rate': 29.3}
+2021-05-19 18:45:38,778 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=2021-05-19 17:44:41)
+2021-05-19 18:45:38,781 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=2021-05-19 17:44:41) [sell]: 0.10066458 EUR - rate: 0.0016
+2021-05-19 18:45:38,781 - freqtrade.persistence.models - INFO - Updating trade (id=39) ...
+2021-05-19 18:45:38,782 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=2021-05-19 17:44:41).
+2021-05-19 18:45:38,782 - freqtrade.persistence.models - INFO - Marking Trade(id=39, pair=ALGO/EUR, amount=76.98988179, open_rate=0.86503000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:45:38,793 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 39, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'gain': 'loss', 'limit': 0.81719, 'order_type': '', 'amount': 76.98988179, 'open_rate': 0.86503, 'close_rate': 0.81719, 'current_rate': None, 'profit_amount': -3.89041822, 'profit_ratio': -0.05832264, 'sell_reason': 'stop_loss', 'open_date': datetime.datetime(2021, 5, 19, 17, 44, 41, 855412), 'close_date': datetime.datetime(2021, 5, 19, 18, 45, 38, 782620), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:45:38,794 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:45:38,801 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:45:38,802 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=2021-05-19 18:44:41)
+2021-05-19 18:45:38,804 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=2021-05-19 18:44:41) [buy]: 0.11103415 EUR - rate: 0.0016
+2021-05-19 18:45:38,805 - freqtrade.persistence.models - INFO - Updating trade (id=47) ...
+2021-05-19 18:45:38,805 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=2021-05-19 18:44:41).
+2021-05-19 18:45:38,815 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 47, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'open_rate': 29.3, 'stake_amount': 69.3963446484, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.36847592, 'open_date': datetime.datetime(2021, 5, 19, 18, 44, 41, 98912)}
+2021-05-19 18:45:38,816 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 18:45:42,013 - freqtrade.freqtradebot - INFO - Executing Sell for BAL/EUR. Reason: roi
+2021-05-19 18:45:42,033 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:45:42,060 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 47, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'profit', 'limit': 30.3, 'order_type': 'limit', 'amount': 2.36847592, 'open_rate': 29.3, 'close_rate': None, 'current_rate': 30.3, 'profit_amount': 2.14261806, 'profit_ratio': 0.03082576, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 44, 41, 98912), 'close_date': datetime.datetime(2021, 5, 19, 18, 45, 42, 60544), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:45:42,141 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:45:42,183 - freqtrade.freqtradebot - INFO - Pair ALGO/EUR is still locked until 2021-05-19 18:45:00 due to Auto lock.
+2021-05-19 18:45:42,453 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:46:34,525 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=2021-05-19 18:44:41)
+2021-05-19 18:46:34,528 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=2021-05-19 18:44:41) [sell]: 0.11482371 EUR - rate: 0.0016
+2021-05-19 18:46:34,529 - freqtrade.persistence.models - INFO - Updating trade (id=47) ...
+2021-05-19 18:46:34,529 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=2021-05-19 18:44:41).
+2021-05-19 18:46:34,530 - freqtrade.persistence.models - INFO - Marking Trade(id=47, pair=BAL/EUR, amount=2.36847592, open_rate=29.30000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 18:46:34,541 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 47, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'profit', 'limit': 30.3, 'order_type': '', 'amount': 2.36847592, 'open_rate': 29.3, 'close_rate': 30.3, 'current_rate': None, 'profit_amount': 2.14261806, 'profit_ratio': 0.03082576, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 44, 41, 98912), 'close_date': datetime.datetime(2021, 5, 19, 18, 46, 34, 530255), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:46:34,542 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 18:46:34,550 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:47:37,370 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:49:37,992 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:51:39,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:53:39,883 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:55:37,620 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:57:38,684 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 18:59:39,093 - freqtrade.freqtradebot - INFO - Executing Sell for MLN/EUR. Reason: roi
+2021-05-19 18:59:39,110 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:59:39,136 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 46, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 57.958, 'order_type': 'limit', 'amount': 1.24582777, 'open_rate': 55.703, 'close_rate': None, 'current_rate': 57.958, 'profit_amount': 2.58277837, 'profit_ratio': 0.03715833, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 39, 40, 425466), 'close_date': datetime.datetime(2021, 5, 19, 18, 59, 39, 136619), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 18:59:39,251 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 18:59:39,577 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:00:34,678 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=2021-05-19 18:39:40)
+2021-05-19 19:00:34,682 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=2021-05-19 18:39:40) [sell]: 0.1155291 EUR - rate: 0.0016
+2021-05-19 19:00:34,682 - freqtrade.persistence.models - INFO - Updating trade (id=46) ...
+2021-05-19 19:00:34,683 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=2021-05-19 18:39:40).
+2021-05-19 19:00:34,683 - freqtrade.persistence.models - INFO - Marking Trade(id=46, pair=MLN/EUR, amount=1.24582777, open_rate=55.70300000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 19:00:34,694 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 46, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 57.958, 'order_type': '', 'amount': 1.24582777, 'open_rate': 55.703, 'close_rate': 57.958, 'current_rate': None, 'profit_amount': 2.58277837, 'profit_ratio': 0.03715833, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 18, 39, 40, 425466), 'close_date': datetime.datetime(2021, 5, 19, 19, 0, 34, 683578), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:00:34,695 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 19:00:34,704 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:01:36,931 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:01:36,933 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for OXT/EUR with stake_amount: 69.6718874577 ...
+2021-05-19 19:01:36,934 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 19:01:37,208 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:01:37,209 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 48, 'type': buy, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'limit': 0.31559, 'order_type': 'limit', 'stake_amount': 69.6718874577, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 220.76709483, 'open_date': datetime.datetime(2021, 5, 19, 19, 1, 37, 188570), 'current_rate': 0.31559}
+2021-05-19 19:01:37,394 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:02:38,836 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=2021-05-19 19:01:37)
+2021-05-19 19:02:38,838 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=2021-05-19 19:01:37) [buy]: 0.11147502 EUR - rate: 0.0016
+2021-05-19 19:02:38,839 - freqtrade.persistence.models - INFO - Updating trade (id=48) ...
+2021-05-19 19:02:38,839 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=2021-05-19 19:01:37).
+2021-05-19 19:02:38,849 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 48, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'open_rate': 0.31559, 'stake_amount': 69.6718874577, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 220.76709483, 'open_date': datetime.datetime(2021, 5, 19, 19, 1, 37, 188570)}
+2021-05-19 19:02:38,850 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 19:02:39,345 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:03:34,447 - freqtrade.freqtradebot - INFO - Executing Sell for OXT/EUR. Reason: roi
+2021-05-19 19:03:34,466 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:03:34,490 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 48, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'gain': 'profit', 'limit': 0.32165, 'order_type': 'limit', 'amount': 220.76709483, 'open_rate': 0.31559, 'close_rate': None, 'current_rate': 0.32165, 'profit_amount': 1.112758, 'profit_ratio': 0.01594589, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 1, 37, 188570), 'close_date': datetime.datetime(2021, 5, 19, 19, 3, 34, 490773), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:03:34,570 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:04:36,504 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=2021-05-19 19:01:37)
+2021-05-19 19:04:36,507 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=2021-05-19 19:01:37) [sell]: 0.11361558 EUR - rate: 0.0016
+2021-05-19 19:04:36,507 - freqtrade.persistence.models - INFO - Updating trade (id=48) ...
+2021-05-19 19:04:36,508 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=2021-05-19 19:01:37).
+2021-05-19 19:04:36,508 - freqtrade.persistence.models - INFO - Marking Trade(id=48, pair=OXT/EUR, amount=220.76709483, open_rate=0.31559000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 19:04:36,519 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 48, 'exchange': 'Kraken', 'pair': 'OXT/EUR', 'gain': 'profit', 'limit': 0.32165, 'order_type': '', 'amount': 220.76709483, 'open_rate': 0.31559, 'close_rate': 0.32165, 'current_rate': None, 'profit_amount': 1.112758, 'profit_ratio': 0.01594589, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 1, 37, 188570), 'close_date': datetime.datetime(2021, 5, 19, 19, 4, 36, 508631), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:04:36,520 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 19:04:36,529 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:04:36,810 - freqtrade.freqtradebot - INFO - Pair OXT/EUR is still locked until 2021-05-19 19:04:00 due to Auto lock.
+2021-05-19 19:04:36,867 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:06:37,700 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:08:35,895 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:09:37,425 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:10:39,461 - freqtrade.strategy.interface - WARNING - Empty candle (OHLCV) data for pair DAI/EUR
+2021-05-19 19:10:40,053 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:10:40,057 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for MLN/EUR with stake_amount: 70.0390975977 ...
+2021-05-19 19:10:40,058 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 19:10:40,353 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:10:40,355 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 49, 'type': buy, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'limit': 55.799, 'order_type': 'limit', 'stake_amount': 70.0390975977, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.25520345, 'open_date': datetime.datetime(2021, 5, 19, 19, 10, 40, 333195), 'current_rate': 55.799}
+2021-05-19 19:10:40,545 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:11:38,261 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=2021-05-19 19:10:40)
+2021-05-19 19:11:38,265 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=2021-05-19 19:10:40) [buy]: 0.11206256 EUR - rate: 0.0016
+2021-05-19 19:11:38,265 - freqtrade.persistence.models - INFO - Updating trade (id=49) ...
+2021-05-19 19:11:38,266 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=2021-05-19 19:10:40).
+2021-05-19 19:11:38,276 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 49, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'open_rate': 55.799, 'stake_amount': 70.0390975977, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.25520345, 'open_date': datetime.datetime(2021, 5, 19, 19, 10, 40, 333195)}
+2021-05-19 19:11:38,277 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 19:12:41,132 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:14:38,601 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:16:36,377 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:18:37,202 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:20:38,642 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:22:39,509 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:24:36,621 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:26:35,153 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:27:36,733 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:29:37,416 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:31:38,677 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:31:38,680 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for EWT/EUR with stake_amount: 70.03909759769999 ...
+2021-05-19 19:31:38,681 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 19:31:41,485 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:31:41,486 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 50, 'type': buy, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'limit': 8.204, 'order_type': 'limit', 'stake_amount': 70.03909759769999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 8.53718888, 'open_date': datetime.datetime(2021, 5, 19, 19, 31, 41, 464294), 'current_rate': 8.204}
+2021-05-19 19:31:41,867 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:32:36,825 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=2021-05-19 19:31:41)
+2021-05-19 19:32:36,828 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=2021-05-19 19:31:41) [buy]: 0.11206256 EUR - rate: 0.0016
+2021-05-19 19:32:36,828 - freqtrade.persistence.models - INFO - Updating trade (id=50) ...
+2021-05-19 19:32:36,829 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=2021-05-19 19:31:41).
+2021-05-19 19:32:36,839 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 50, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'open_rate': 8.204, 'stake_amount': 70.03909759769999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 8.53718888, 'open_date': datetime.datetime(2021, 5, 19, 19, 31, 41, 464294)}
+2021-05-19 19:32:36,840 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 19:33:42,244 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:34:37,582 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:34:37,585 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for ANT/EUR with stake_amount: 70.0390975977 ...
+2021-05-19 19:34:37,586 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 19:34:40,736 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:34:40,737 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 51, 'type': buy, 'exchange': 'Kraken', 'pair': 'ANT/EUR', 'limit': 3.9661, 'order_type': 'limit', 'stake_amount': 70.0390975977, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 17.65943813, 'open_date': datetime.datetime(2021, 5, 19, 19, 34, 40, 714179), 'current_rate': 3.9661}
+2021-05-19 19:35:38,394 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=2021-05-19 19:34:40)
+2021-05-19 19:35:38,397 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=2021-05-19 19:34:40) [buy]: 0.11206256 EUR - rate: 0.0016
+2021-05-19 19:35:38,397 - freqtrade.persistence.models - INFO - Updating trade (id=51) ...
+2021-05-19 19:35:38,398 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=2021-05-19 19:34:40).
+2021-05-19 19:35:38,406 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 51, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'ANT/EUR', 'open_rate': 3.9661, 'stake_amount': 70.0390975977, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 17.65943813, 'open_date': datetime.datetime(2021, 5, 19, 19, 34, 40, 714179)}
+2021-05-19 19:35:38,407 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 19:35:44,609 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:36:42,119 - freqtrade.freqtradebot - INFO - Executing Sell for EWT/EUR. Reason: roi
+2021-05-19 19:36:42,137 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:36:42,163 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 50, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'gain': 'profit', 'limit': 8.361, 'order_type': 'limit', 'amount': 8.53718888, 'open_rate': 8.204, 'close_rate': None, 'current_rate': 8.361, 'profit_amount': 1.114069, 'profit_ratio': 0.01588098, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 31, 41, 464294), 'close_date': datetime.datetime(2021, 5, 19, 19, 36, 42, 163002), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:36:45,110 - freqtrade.freqtradebot - INFO - Executing Sell for ANT/EUR. Reason: roi
+2021-05-19 19:36:45,126 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:36:45,152 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 51, 'exchange': 'Kraken', 'pair': 'ANT/EUR', 'gain': 'profit', 'limit': 4.0926, 'order_type': 'limit', 'amount': 17.65943813, 'open_rate': 3.9661, 'close_rate': None, 'current_rate': 4.0926, 'profit_amount': 2.00621954, 'profit_ratio': 0.02859852, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 34, 40, 714179), 'close_date': datetime.datetime(2021, 5, 19, 19, 36, 45, 152362), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:36:45,231 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:36:45,236 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:37:48,154 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=2021-05-19 19:31:41)
+2021-05-19 19:37:48,157 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=2021-05-19 19:31:41) [sell]: 0.1142071 EUR - rate: 0.0016
+2021-05-19 19:37:48,158 - freqtrade.persistence.models - INFO - Updating trade (id=50) ...
+2021-05-19 19:37:48,158 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=2021-05-19 19:31:41).
+2021-05-19 19:37:48,159 - freqtrade.persistence.models - INFO - Marking Trade(id=50, pair=EWT/EUR, amount=8.53718888, open_rate=8.20400000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 19:37:48,171 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 50, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'gain': 'profit', 'limit': 8.361, 'order_type': '', 'amount': 8.53718888, 'open_rate': 8.204, 'close_rate': 8.361, 'current_rate': None, 'profit_amount': 1.114069, 'profit_ratio': 0.01588098, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 31, 41, 464294), 'close_date': datetime.datetime(2021, 5, 19, 19, 37, 48, 159290), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:37:48,172 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 19:37:48,185 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:37:48,186 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=2021-05-19 19:34:40)
+2021-05-19 19:37:48,190 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=2021-05-19 19:34:40) [sell]: 0.11563683 EUR - rate: 0.0016
+2021-05-19 19:37:48,191 - freqtrade.persistence.models - INFO - Updating trade (id=51) ...
+2021-05-19 19:37:48,191 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=2021-05-19 19:34:40).
+2021-05-19 19:37:48,192 - freqtrade.persistence.models - INFO - Marking Trade(id=51, pair=ANT/EUR, amount=17.65943813, open_rate=3.96610000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 19:37:48,204 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 51, 'exchange': 'Kraken', 'pair': 'ANT/EUR', 'gain': 'profit', 'limit': 4.0926, 'order_type': '', 'amount': 17.65943813, 'open_rate': 3.9661, 'close_rate': 4.0926, 'current_rate': None, 'profit_amount': 2.00621954, 'profit_ratio': 0.02859852, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 34, 40, 714179), 'close_date': datetime.datetime(2021, 5, 19, 19, 37, 48, 192634), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:37:48,205 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 19:37:48,215 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:37:48,466 - freqtrade.freqtradebot - INFO - Pair ANT/EUR is still locked until 2021-05-19 19:37:00 due to Auto lock.
+2021-05-19 19:37:48,751 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:39:40,480 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:41:35,123 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:41:35,126 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for TBTC/EUR with stake_amount: 71.0687928159 ...
+2021-05-19 19:41:35,126 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 19:41:37,820 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:41:37,822 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 52, 'type': buy, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'limit': 30299.0, 'order_type': 'limit', 'stake_amount': 71.0687928159, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.00234558, 'open_date': datetime.datetime(2021, 5, 19, 19, 41, 37, 796920), 'current_rate': 30299.0}
+2021-05-19 19:41:37,936 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:42:36,646 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=2021-05-19 19:41:37)
+2021-05-19 19:42:36,649 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=2021-05-19 19:41:37) [buy]: 0.11370997 EUR - rate: 0.0016
+2021-05-19 19:42:36,650 - freqtrade.persistence.models - INFO - Updating trade (id=52) ...
+2021-05-19 19:42:36,650 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=2021-05-19 19:41:37).
+2021-05-19 19:42:36,658 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 52, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'open_rate': 30299.0, 'stake_amount': 71.0687928159, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.00234558, 'open_date': datetime.datetime(2021, 5, 19, 19, 41, 37, 796920)}
+2021-05-19 19:42:36,658 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 19:42:39,683 - freqtrade.freqtradebot - INFO - Executing Sell for TBTC/EUR. Reason: roi
+2021-05-19 19:42:39,701 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:42:39,726 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 52, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'gain': 'profit', 'limit': 32673.7, 'order_type': 'limit', 'amount': 0.00234558, 'open_rate': 30299.0, 'close_rate': None, 'current_rate': 32673.7, 'profit_amount': 5.33371682, 'profit_ratio': 0.07493023, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 41, 37, 796920), 'close_date': datetime.datetime(2021, 5, 19, 19, 42, 39, 726818), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:42:39,812 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:42:40,131 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:43:35,471 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=2021-05-19 19:41:37)
+2021-05-19 19:43:35,474 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=2021-05-19 19:41:37) [sell]: 0.12262204 EUR - rate: 0.0016
+2021-05-19 19:43:35,474 - freqtrade.persistence.models - INFO - Updating trade (id=52) ...
+2021-05-19 19:43:35,475 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=2021-05-19 19:41:37).
+2021-05-19 19:43:35,475 - freqtrade.persistence.models - INFO - Marking Trade(id=52, pair=TBTC/EUR, amount=0.00234558, open_rate=30299.00000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 19:43:35,486 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 52, 'exchange': 'Kraken', 'pair': 'TBTC/EUR', 'gain': 'profit', 'limit': 32673.7, 'order_type': '', 'amount': 0.00234558, 'open_rate': 30299.0, 'close_rate': 32673.7, 'current_rate': None, 'profit_amount': 5.33371682, 'profit_ratio': 0.07493023, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 41, 37, 796920), 'close_date': datetime.datetime(2021, 5, 19, 19, 43, 35, 475855), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 19:43:35,488 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 19:43:35,498 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 19:44:35,108 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:45:36,862 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:47:37,861 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:49:38,889 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:51:36,666 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:52:38,514 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:54:39,537 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:56:37,327 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:58:34,941 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 19:59:36,991 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:01:37,932 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:03:38,818 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:05:36,632 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:07:37,643 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:09:35,300 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:10:38,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:12:36,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:13:36,869 - freqtrade.freqtradebot - INFO - Executing Sell for MLN/EUR. Reason: roi
+2021-05-19 20:13:36,888 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:13:36,917 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 49, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 56.901, 'order_type': 'limit', 'amount': 1.25520345, 'open_rate': 55.799, 'close_rate': None, 'current_rate': 56.901, 'profit_amount': 1.15689592, 'profit_ratio': 0.01649147, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 10, 40, 333195), 'close_date': datetime.datetime(2021, 5, 19, 20, 13, 36, 917335), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:13:37,038 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:13:37,333 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:14:35,473 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=2021-05-19 19:10:40)
+2021-05-19 20:14:35,476 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=2021-05-19 19:10:40) [sell]: 0.11427573 EUR - rate: 0.0016
+2021-05-19 20:14:35,476 - freqtrade.persistence.models - INFO - Updating trade (id=49) ...
+2021-05-19 20:14:35,477 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=2021-05-19 19:10:40).
+2021-05-19 20:14:35,477 - freqtrade.persistence.models - INFO - Marking Trade(id=49, pair=MLN/EUR, amount=1.25520345, open_rate=55.79900000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:14:35,488 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 49, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 56.901, 'order_type': '', 'amount': 1.25520345, 'open_rate': 55.799, 'close_rate': 56.901, 'current_rate': None, 'profit_amount': 1.15689592, 'profit_ratio': 0.01649147, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 19, 10, 40, 333195), 'close_date': datetime.datetime(2021, 5, 19, 20, 14, 35, 477612), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:14:35,489 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:14:35,494 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:14:35,669 - freqtrade.freqtradebot - INFO - Pair MLN/EUR is still locked until 2021-05-19 20:14:00 due to Auto lock.
+2021-05-19 20:15:34,853 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:16:04,952 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 174903689
+2021-05-19 20:16:10,834 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 174903689
+2021-05-19 20:16:36,859 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:18:37,718 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:20:38,540 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:21:40,400 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:23:38,251 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:25:36,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:27:40,410 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:28:35,709 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:28:35,712 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KEEP/EUR with stake_amount: 73.2106950201 ...
+2021-05-19 20:28:35,712 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:28:35,944 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:28:35,945 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 53, 'type': buy, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'limit': 0.27056, 'order_type': 'limit', 'stake_amount': 73.2106950201, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 270.58949963, 'open_date': datetime.datetime(2021, 5, 19, 20, 28, 35, 925890), 'current_rate': 0.27056}
+2021-05-19 20:29:37,640 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=2021-05-19 20:28:35)
+2021-05-19 20:29:37,643 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=2021-05-19 20:28:35) [buy]: 0.11713711 EUR - rate: 0.0016
+2021-05-19 20:29:37,644 - freqtrade.persistence.models - INFO - Updating trade (id=53) ...
+2021-05-19 20:29:37,644 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=2021-05-19 20:28:35).
+2021-05-19 20:29:37,652 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 53, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'open_rate': 0.27056, 'stake_amount': 73.2106950201, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 270.58949963, 'open_date': datetime.datetime(2021, 5, 19, 20, 28, 35, 925890)}
+2021-05-19 20:29:37,653 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:29:37,837 - freqtrade.freqtradebot - INFO - Executing Sell for KEEP/EUR. Reason: roi
+2021-05-19 20:29:37,853 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:29:37,878 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 53, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'gain': 'profit', 'limit': 0.27601, 'order_type': 'limit', 'amount': 270.58949963, 'open_rate': 0.27056, 'close_rate': None, 'current_rate': 0.27601, 'profit_amount': 1.23807901, 'profit_ratio': 0.01688416, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 28, 35, 925890), 'close_date': datetime.datetime(2021, 5, 19, 20, 29, 37, 878441), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:29:37,957 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:29:38,311 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:30:25,552 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 174903689
+2021-05-19 20:30:39,587 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=2021-05-19 20:28:35)
+2021-05-19 20:30:39,589 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=2021-05-19 20:28:35) [sell]: 0.11949665 EUR - rate: 0.0016
+2021-05-19 20:30:39,590 - freqtrade.persistence.models - INFO - Updating trade (id=53) ...
+2021-05-19 20:30:39,590 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=2021-05-19 20:28:35).
+2021-05-19 20:30:39,591 - freqtrade.persistence.models - INFO - Marking Trade(id=53, pair=KEEP/EUR, amount=270.58949963, open_rate=0.27056000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:30:39,602 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 53, 'exchange': 'Kraken', 'pair': 'KEEP/EUR', 'gain': 'profit', 'limit': 0.27601, 'order_type': '', 'amount': 270.58949963, 'open_rate': 0.27056, 'close_rate': 0.27601, 'current_rate': None, 'profit_amount': 1.23807901, 'profit_ratio': 0.01688416, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 28, 35, 925890), 'close_date': datetime.datetime(2021, 5, 19, 20, 30, 39, 591093), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:30:39,602 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:30:39,609 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:30:39,911 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:32:37,738 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:34:38,749 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:36:36,422 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:38:43,431 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:39:36,017 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:39:36,020 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for LSK/EUR with stake_amount: 73.6192610934 ...
+2021-05-19 20:39:36,020 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:39:36,332 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:39:36,333 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 54, 'type': buy, 'exchange': 'Kraken', 'pair': 'LSK/EUR', 'limit': 3.754769, 'order_type': 'limit', 'stake_amount': 73.6192610934, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 19.60686825, 'open_date': datetime.datetime(2021, 5, 19, 20, 39, 36, 311364), 'current_rate': 3.754769}
+2021-05-19 20:40:37,988 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=2021-05-19 20:39:36)
+2021-05-19 20:40:37,991 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=2021-05-19 20:39:36) [buy]: 0.11779082 EUR - rate: 0.0016
+2021-05-19 20:40:37,992 - freqtrade.persistence.models - INFO - Updating trade (id=54) ...
+2021-05-19 20:40:37,992 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=2021-05-19 20:39:36).
+2021-05-19 20:40:38,001 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 54, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'LSK/EUR', 'open_rate': 3.754769, 'stake_amount': 73.6192610934, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 19.60686825, 'open_date': datetime.datetime(2021, 5, 19, 20, 39, 36, 311364)}
+2021-05-19 20:40:38,001 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:40:38,576 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:42:35,867 - freqtrade.freqtradebot - INFO - Executing Sell for LSK/EUR. Reason: roi
+2021-05-19 20:42:35,884 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:42:35,909 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 54, 'exchange': 'Kraken', 'pair': 'LSK/EUR', 'gain': 'profit', 'limit': 3.832956, 'order_type': 'limit', 'amount': 19.60686825, 'open_rate': 3.754769, 'close_rate': None, 'current_rate': 3.832956, 'profit_amount': 1.29496777, 'profit_ratio': 0.01756197, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 39, 36, 311364), 'close_date': datetime.datetime(2021, 5, 19, 20, 42, 35, 909420), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:42:35,981 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:42:36,175 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:42:36,178 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for GNO/EUR with stake_amount: 73.6192610934 ...
+2021-05-19 20:42:36,178 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:42:38,891 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:42:38,892 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 55, 'type': buy, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'limit': 140.09, 'order_type': 'limit', 'stake_amount': 73.6192610934, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.52551403, 'open_date': datetime.datetime(2021, 5, 19, 20, 42, 38, 870382), 'current_rate': 140.09}
+2021-05-19 20:42:39,130 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:43:34,466 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=2021-05-19 20:39:36)
+2021-05-19 20:43:34,469 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=2021-05-19 20:39:36) [sell]: 0.12024362 EUR - rate: 0.0016
+2021-05-19 20:43:34,469 - freqtrade.persistence.models - INFO - Updating trade (id=54) ...
+2021-05-19 20:43:34,470 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=2021-05-19 20:39:36).
+2021-05-19 20:43:34,470 - freqtrade.persistence.models - INFO - Marking Trade(id=54, pair=LSK/EUR, amount=19.60686825, open_rate=3.75476900, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:43:34,482 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 54, 'exchange': 'Kraken', 'pair': 'LSK/EUR', 'gain': 'profit', 'limit': 3.832956, 'order_type': '', 'amount': 19.60686825, 'open_rate': 3.754769, 'close_rate': 3.832956, 'current_rate': None, 'profit_amount': 1.29496777, 'profit_ratio': 0.01756197, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 39, 36, 311364), 'close_date': datetime.datetime(2021, 5, 19, 20, 43, 34, 470869), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:43:34,483 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:43:34,493 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:43:34,494 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=2021-05-19 20:42:38)
+2021-05-19 20:43:34,498 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=2021-05-19 20:42:38) [buy]: 0.11779082 EUR - rate: 0.0016
+2021-05-19 20:43:34,499 - freqtrade.persistence.models - INFO - Updating trade (id=55) ...
+2021-05-19 20:43:34,500 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=2021-05-19 20:42:38).
+2021-05-19 20:43:34,512 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 55, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'open_rate': 140.09, 'stake_amount': 73.6192610934, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.52551403, 'open_date': datetime.datetime(2021, 5, 19, 20, 42, 38, 870382)}
+2021-05-19 20:43:34,513 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:43:34,711 - freqtrade.freqtradebot - INFO - Executing Sell for GNO/EUR. Reason: roi
+2021-05-19 20:43:34,727 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:43:34,752 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 55, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 148.25, 'order_type': 'limit', 'amount': 0.52551403, 'open_rate': 140.09, 'close_rate': None, 'current_rate': 148.25, 'profit_amount': 4.04575174, 'profit_ratio': 0.05486728, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 42, 38, 870382), 'close_date': datetime.datetime(2021, 5, 19, 20, 43, 34, 752110), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:43:34,989 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:43:35,227 - freqtrade.freqtradebot - INFO - Pair LSK/EUR is still locked until 2021-05-19 20:43:00 due to Auto lock.
+2021-05-19 20:44:37,307 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=2021-05-19 20:42:38)
+2021-05-19 20:44:37,310 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=2021-05-19 20:42:38) [sell]: 0.12465193 EUR - rate: 0.0016
+2021-05-19 20:44:37,311 - freqtrade.persistence.models - INFO - Updating trade (id=55) ...
+2021-05-19 20:44:37,311 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=2021-05-19 20:42:38).
+2021-05-19 20:44:37,312 - freqtrade.persistence.models - INFO - Marking Trade(id=55, pair=GNO/EUR, amount=0.52551403, open_rate=140.09000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:44:37,321 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 55, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 148.25, 'order_type': '', 'amount': 0.52551403, 'open_rate': 140.09, 'close_rate': 148.25, 'current_rate': None, 'profit_amount': 4.04575174, 'profit_ratio': 0.05486728, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 42, 38, 870382), 'close_date': datetime.datetime(2021, 5, 19, 20, 44, 37, 312267), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:44:37,321 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:44:37,328 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:44:37,458 - freqtrade.freqtradebot - INFO - Pair GNO/EUR is still locked until 2021-05-19 20:44:00 due to Auto lock.
+2021-05-19 20:44:37,597 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:45:35,623 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:45:35,625 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for GNO/EUR with stake_amount: 75.3816985317 ...
+2021-05-19 20:45:35,626 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:45:35,829 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:45:35,831 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 56, 'type': buy, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'limit': 141.71, 'order_type': 'limit', 'stake_amount': 75.3816985317, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.53194339, 'open_date': datetime.datetime(2021, 5, 19, 20, 45, 35, 806360), 'current_rate': 141.71}
+2021-05-19 20:46:34,483 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=2021-05-19 20:45:35)
+2021-05-19 20:46:34,486 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=2021-05-19 20:45:35) [buy]: 0.12061072 EUR - rate: 0.0016
+2021-05-19 20:46:34,486 - freqtrade.persistence.models - INFO - Updating trade (id=56) ...
+2021-05-19 20:46:34,487 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=2021-05-19 20:45:35).
+2021-05-19 20:46:34,495 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 56, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'open_rate': 141.71, 'stake_amount': 75.3816985317, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.53194339, 'open_date': datetime.datetime(2021, 5, 19, 20, 45, 35, 806360)}
+2021-05-19 20:46:34,496 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:46:34,677 - freqtrade.freqtradebot - INFO - Executing Sell for GNO/EUR. Reason: roi
+2021-05-19 20:46:34,696 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:46:34,722 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 56, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 147.2, 'order_type': 'limit', 'amount': 0.53194339, 'open_rate': 141.71, 'close_rate': None, 'current_rate': 147.2, 'profit_amount': 2.67447519, 'profit_ratio': 0.03542243, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 45, 35, 806360), 'close_date': datetime.datetime(2021, 5, 19, 20, 46, 34, 722476), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:46:34,940 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:46:35,249 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:47:39,526 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=2021-05-19 20:45:35)
+2021-05-19 20:47:39,529 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=2021-05-19 20:45:35) [sell]: 0.12528331 EUR - rate: 0.0016
+2021-05-19 20:47:39,530 - freqtrade.persistence.models - INFO - Updating trade (id=56) ...
+2021-05-19 20:47:39,530 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=2021-05-19 20:45:35).
+2021-05-19 20:47:39,531 - freqtrade.persistence.models - INFO - Marking Trade(id=56, pair=GNO/EUR, amount=0.53194339, open_rate=141.71000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:47:39,542 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 56, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 147.2, 'order_type': '', 'amount': 0.53194339, 'open_rate': 141.71, 'close_rate': 147.2, 'current_rate': None, 'profit_amount': 2.67447519, 'profit_ratio': 0.03542243, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 45, 35, 806360), 'close_date': datetime.datetime(2021, 5, 19, 20, 47, 39, 531087), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:47:39,544 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:47:39,554 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:47:39,710 - freqtrade.freqtradebot - INFO - Pair GNO/EUR is still locked until 2021-05-19 20:47:00 due to Auto lock.
+2021-05-19 20:47:39,848 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:49:37,401 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:49:37,404 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for EWT/EUR with stake_amount: 76.2642753444 ...
+2021-05-19 20:49:37,404 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:49:37,634 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:49:37,636 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 57, 'type': buy, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'limit': 8.196, 'order_type': 'limit', 'stake_amount': 76.2642753444, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 9.30506043, 'open_date': datetime.datetime(2021, 5, 19, 20, 49, 37, 610902), 'current_rate': 8.196}
+2021-05-19 20:49:37,928 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:50:36,180 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=2021-05-19 20:49:37)
+2021-05-19 20:50:36,183 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=2021-05-19 20:49:37) [buy]: 0.12202284 EUR - rate: 0.0016
+2021-05-19 20:50:36,184 - freqtrade.persistence.models - INFO - Updating trade (id=57) ...
+2021-05-19 20:50:36,184 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=2021-05-19 20:49:37).
+2021-05-19 20:50:36,196 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 57, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'open_rate': 8.196, 'stake_amount': 76.2642753444, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 9.30506043, 'open_date': datetime.datetime(2021, 5, 19, 20, 49, 37, 610902)}
+2021-05-19 20:50:36,198 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:50:36,395 - freqtrade.freqtradebot - INFO - Executing Sell for EWT/EUR. Reason: roi
+2021-05-19 20:50:36,412 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:50:36,439 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 57, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'gain': 'profit', 'limit': 8.376, 'order_type': 'limit', 'amount': 9.30506043, 'open_rate': 8.196, 'close_rate': None, 'current_rate': 8.376, 'profit_amount': 1.42818534, 'profit_ratio': 0.01869688, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 49, 37, 610902), 'close_date': datetime.datetime(2021, 5, 19, 20, 50, 36, 439158), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:50:36,740 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:50:36,995 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:50:36,997 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for MLN/EUR with stake_amount: 76.2642753444 ...
+2021-05-19 20:50:36,998 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:50:39,406 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:50:39,408 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 58, 'type': buy, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'limit': 53.399, 'order_type': 'limit', 'stake_amount': 76.2642753444, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.42819669, 'open_date': datetime.datetime(2021, 5, 19, 20, 50, 39, 387495), 'current_rate': 53.399}
+2021-05-19 20:50:39,609 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:51:35,063 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=2021-05-19 20:49:37)
+2021-05-19 20:51:35,066 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=2021-05-19 20:49:37) [sell]: 0.1247027 EUR - rate: 0.0016
+2021-05-19 20:51:35,067 - freqtrade.persistence.models - INFO - Updating trade (id=57) ...
+2021-05-19 20:51:35,067 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=2021-05-19 20:49:37).
+2021-05-19 20:51:35,068 - freqtrade.persistence.models - INFO - Marking Trade(id=57, pair=EWT/EUR, amount=9.30506043, open_rate=8.19600000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:51:35,077 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 57, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'gain': 'profit', 'limit': 8.376, 'order_type': '', 'amount': 9.30506043, 'open_rate': 8.196, 'close_rate': 8.376, 'current_rate': None, 'profit_amount': 1.42818534, 'profit_ratio': 0.01869688, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 49, 37, 610902), 'close_date': datetime.datetime(2021, 5, 19, 20, 51, 35, 68203), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:51:35,077 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:51:35,083 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:51:35,084 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=2021-05-19 20:50:39)
+2021-05-19 20:51:35,087 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=2021-05-19 20:50:39) [buy]: 0.12202284 EUR - rate: 0.0016
+2021-05-19 20:51:35,087 - freqtrade.persistence.models - INFO - Updating trade (id=58) ...
+2021-05-19 20:51:35,088 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=2021-05-19 20:50:39).
+2021-05-19 20:51:35,100 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 58, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'open_rate': 53.399, 'stake_amount': 76.2642753444, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 1.42819669, 'open_date': datetime.datetime(2021, 5, 19, 20, 50, 39, 387495)}
+2021-05-19 20:51:35,101 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:51:35,286 - freqtrade.freqtradebot - INFO - Executing Sell for MLN/EUR. Reason: roi
+2021-05-19 20:51:35,303 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:51:35,333 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 58, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 55.292, 'order_type': 'limit', 'amount': 1.42819669, 'open_rate': 53.399, 'close_rate': None, 'current_rate': 55.292, 'profit_amount': 2.45520493, 'profit_ratio': 0.03214195, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 50, 39, 387495), 'close_date': datetime.datetime(2021, 5, 19, 20, 51, 35, 333081), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:51:35,414 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:52:33,904 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=2021-05-19 20:50:39)
+2021-05-19 20:52:33,906 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=2021-05-19 20:50:39) [sell]: 0.12634856 EUR - rate: 0.0016
+2021-05-19 20:52:33,907 - freqtrade.persistence.models - INFO - Updating trade (id=58) ...
+2021-05-19 20:52:33,907 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=2021-05-19 20:50:39).
+2021-05-19 20:52:33,908 - freqtrade.persistence.models - INFO - Marking Trade(id=58, pair=MLN/EUR, amount=1.42819669, open_rate=53.39900000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 20:52:33,920 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 58, 'exchange': 'Kraken', 'pair': 'MLN/EUR', 'gain': 'profit', 'limit': 55.292, 'order_type': '', 'amount': 1.42819669, 'open_rate': 53.399, 'close_rate': 55.292, 'current_rate': None, 'profit_amount': 2.45520493, 'profit_ratio': 0.03214195, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 50, 39, 387495), 'close_date': datetime.datetime(2021, 5, 19, 20, 52, 33, 908380), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 20:52:33,921 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 20:52:33,933 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:52:34,286 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:53:36,269 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:54:34,943 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:54:34,946 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for ADA/EUR with stake_amount: 77.54579413350001 ...
+2021-05-19 20:54:34,946 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:54:34,979 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:54:34,980 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 59, 'type': buy, 'exchange': 'Kraken', 'pair': 'ADA/EUR', 'limit': 1.238337, 'order_type': 'limit', 'stake_amount': 77.54579413350001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 62.62091347, 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 34, 965358), 'current_rate': 1.238337}
+2021-05-19 20:54:35,082 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:54:35,085 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for BAL/EUR with stake_amount: 77.54579413350001 ...
+2021-05-19 20:54:35,086 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:54:38,146 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:54:38,147 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 60, 'type': buy, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'limit': 29.14, 'order_type': 'limit', 'stake_amount': 77.54579413350001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.66114598, 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 38, 127246), 'current_rate': 29.14}
+2021-05-19 20:54:38,219 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:54:38,222 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for BAT/EUR with stake_amount: 77.54579413350001 ...
+2021-05-19 20:54:38,223 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 20:54:41,186 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 20:54:41,187 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 61, 'type': buy, 'exchange': 'Kraken', 'pair': 'BAT/EUR', 'limit': 0.6693, 'order_type': 'limit', 'stake_amount': 77.54579413350001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 115.86104009, 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 41, 167011), 'current_rate': 0.6693}
+2021-05-19 20:54:41,473 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:55:38,797 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=2021-05-19 20:54:34)
+2021-05-19 20:55:38,799 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=2021-05-19 20:54:34) [buy]: 0.12407327 EUR - rate: 0.0016
+2021-05-19 20:55:38,800 - freqtrade.persistence.models - INFO - Updating trade (id=59) ...
+2021-05-19 20:55:38,801 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=2021-05-19 20:54:34).
+2021-05-19 20:55:38,809 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 59, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'ADA/EUR', 'open_rate': 1.238337, 'stake_amount': 77.54579413350001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 62.62091347, 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 34, 965358)}
+2021-05-19 20:55:38,810 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:55:38,812 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=2021-05-19 20:54:38)
+2021-05-19 20:55:38,815 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=2021-05-19 20:54:38) [buy]: 0.12407327 EUR - rate: 0.0016
+2021-05-19 20:55:38,815 - freqtrade.persistence.models - INFO - Updating trade (id=60) ...
+2021-05-19 20:55:38,816 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=2021-05-19 20:54:38).
+2021-05-19 20:55:38,826 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 60, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'open_rate': 29.14, 'stake_amount': 77.54579413350001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 2.66114598, 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 38, 127246)}
+2021-05-19 20:55:38,827 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:55:38,830 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=61, pair=BAT/EUR, amount=115.86104009, open_rate=0.66930000, open_since=2021-05-19 20:54:41)
+2021-05-19 20:55:38,834 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=61, pair=BAT/EUR, amount=115.86104009, open_rate=0.66930000, open_since=2021-05-19 20:54:41) [buy]: 0.12407327 EUR - rate: 0.0016
+2021-05-19 20:55:38,835 - freqtrade.persistence.models - INFO - Updating trade (id=61) ...
+2021-05-19 20:55:38,836 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=61, pair=BAT/EUR, amount=115.86104009, open_rate=0.66930000, open_since=2021-05-19 20:54:41).
+2021-05-19 20:55:38,847 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 61, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'BAT/EUR', 'open_rate': 0.6693, 'stake_amount': 77.54579413350001, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 115.86104009, 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 41, 167011)}
+2021-05-19 20:55:38,848 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 20:55:45,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:57:42,794 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:58:43,218 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 20:59:43,715 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:00:38,170 - freqtrade.freqtradebot - INFO - Executing Sell for ADA/EUR. Reason: roi
+2021-05-19 21:00:38,183 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:00:38,203 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 59, 'exchange': 'Kraken', 'pair': 'ADA/EUR', 'gain': 'profit', 'limit': 1.264706, 'order_type': 'limit', 'amount': 62.62091347, 'open_rate': 1.238337, 'close_rate': None, 'current_rate': 1.264706, 'profit_amount': 1.40046232, 'profit_ratio': 0.01803096, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 34, 965358), 'close_date': datetime.datetime(2021, 5, 19, 21, 0, 38, 202989), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:00:44,190 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:00:44,194 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:01:38,464 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=2021-05-19 20:54:34)
+2021-05-19 21:01:38,467 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=2021-05-19 20:54:34) [sell]: 0.12671527 EUR - rate: 0.0016
+2021-05-19 21:01:38,467 - freqtrade.persistence.models - INFO - Updating trade (id=59) ...
+2021-05-19 21:01:38,468 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=2021-05-19 20:54:34).
+2021-05-19 21:01:38,468 - freqtrade.persistence.models - INFO - Marking Trade(id=59, pair=ADA/EUR, amount=62.62091347, open_rate=1.23833700, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 21:01:38,477 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 59, 'exchange': 'Kraken', 'pair': 'ADA/EUR', 'gain': 'profit', 'limit': 1.264706, 'order_type': '', 'amount': 62.62091347, 'open_rate': 1.238337, 'close_rate': 1.264706, 'current_rate': None, 'profit_amount': 1.40046232, 'profit_ratio': 0.01803096, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 34, 965358), 'close_date': datetime.datetime(2021, 5, 19, 21, 1, 38, 468866), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:01:38,478 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 21:01:38,485 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:01:41,710 - freqtrade.freqtradebot - INFO - Pair ADA/EUR is still locked until 2021-05-19 21:01:00 due to Auto lock.
+2021-05-19 21:02:40,992 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:04:41,737 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:05:37,357 - freqtrade.freqtradebot - INFO - Executing Sell for BAL/EUR. Reason: roi
+2021-05-19 21:05:37,374 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:05:37,401 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 60, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'profit', 'limit': 29.62, 'order_type': 'limit', 'amount': 2.66114598, 'open_rate': 29.14, 'close_rate': None, 'current_rate': 29.62, 'profit_amount': 1.02715977, 'profit_ratio': 0.01322469, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 38, 127246), 'close_date': datetime.datetime(2021, 5, 19, 21, 5, 37, 401767), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:05:40,343 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:06:36,057 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=2021-05-19 20:54:38)
+2021-05-19 21:06:36,060 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=2021-05-19 20:54:38) [sell]: 0.12611703 EUR - rate: 0.0016
+2021-05-19 21:06:36,060 - freqtrade.persistence.models - INFO - Updating trade (id=60) ...
+2021-05-19 21:06:36,061 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=2021-05-19 20:54:38).
+2021-05-19 21:06:36,061 - freqtrade.persistence.models - INFO - Marking Trade(id=60, pair=BAL/EUR, amount=2.66114598, open_rate=29.14000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 21:06:36,069 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 60, 'exchange': 'Kraken', 'pair': 'BAL/EUR', 'gain': 'profit', 'limit': 29.62, 'order_type': '', 'amount': 2.66114598, 'open_rate': 29.14, 'close_rate': 29.62, 'current_rate': None, 'profit_amount': 1.02715977, 'profit_ratio': 0.01322469, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 20, 54, 38, 127246), 'close_date': datetime.datetime(2021, 5, 19, 21, 6, 36, 61888), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:06:36,070 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 21:06:36,076 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:06:36,441 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:08:37,527 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:10:38,235 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:12:36,046 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:14:36,909 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:16:37,609 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:16:37,613 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for ALGO/EUR with stake_amount: 78.3469094232 ...
+2021-05-19 21:16:37,614 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 21:16:40,728 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:16:40,729 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 62, 'type': buy, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'limit': 0.78635, 'order_type': 'limit', 'stake_amount': 78.3469094232, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 99.63363568, 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 40, 705521), 'current_rate': 0.78635}
+2021-05-19 21:16:40,994 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:16:40,996 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KSM/EUR with stake_amount: 78.3469094232 ...
+2021-05-19 21:16:40,997 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 21:16:43,726 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:16:43,727 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 63, 'type': buy, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'limit': 310.09, 'order_type': 'limit', 'stake_amount': 78.3469094232, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.25265861, 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 43, 704779), 'current_rate': 310.09}
+2021-05-19 21:16:43,884 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:17:38,134 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=2021-05-19 21:16:40)
+2021-05-19 21:17:38,137 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=2021-05-19 21:16:40) [buy]: 0.12535506 EUR - rate: 0.0016
+2021-05-19 21:17:38,137 - freqtrade.persistence.models - INFO - Updating trade (id=62) ...
+2021-05-19 21:17:38,138 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=2021-05-19 21:16:40).
+2021-05-19 21:17:38,149 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 62, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'open_rate': 0.78635, 'stake_amount': 78.3469094232, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 99.63363568, 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 40, 705521)}
+2021-05-19 21:17:38,150 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 21:17:38,153 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=2021-05-19 21:16:43)
+2021-05-19 21:17:38,157 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=2021-05-19 21:16:43) [buy]: 0.12535505 EUR - rate: 0.0016
+2021-05-19 21:17:38,158 - freqtrade.persistence.models - INFO - Updating trade (id=63) ...
+2021-05-19 21:17:38,159 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=2021-05-19 21:16:43).
+2021-05-19 21:17:38,172 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 63, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'open_rate': 310.09, 'stake_amount': 78.3469094232, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.25265861, 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 43, 704779)}
+2021-05-19 21:17:38,173 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 21:17:44,374 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:18:44,619 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:19:51,302 - freqtrade.freqtradebot - INFO - Executing Sell for KSM/EUR. Reason: roi
+2021-05-19 21:19:51,324 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:19:51,350 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 63, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 316.59, 'order_type': 'limit', 'amount': 0.25265861, 'open_rate': 310.09, 'close_rate': None, 'current_rate': 316.59, 'profit_amount': 1.38894321, 'profit_ratio': 0.0176998, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 43, 704779), 'close_date': datetime.datetime(2021, 5, 19, 21, 19, 51, 350814), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:19:51,415 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:19:51,420 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:20:39,314 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BAL/EUR due to RequestTimeout. Message: kraken GET https://api.kraken.com/0/public/OHLC?pair=BALEUR&interval=1"
+2021-05-19 21:20:39,315 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-05-19 21:20:40,490 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=2021-05-19 21:16:43)
+2021-05-19 21:20:40,492 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=2021-05-19 21:16:43) [sell]: 0.1279827 EUR - rate: 0.0016
+2021-05-19 21:20:40,493 - freqtrade.persistence.models - INFO - Updating trade (id=63) ...
+2021-05-19 21:20:40,493 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=2021-05-19 21:16:43).
+2021-05-19 21:20:40,494 - freqtrade.persistence.models - INFO - Marking Trade(id=63, pair=KSM/EUR, amount=0.25265861, open_rate=310.09000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 21:20:40,503 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 63, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 316.59, 'order_type': '', 'amount': 0.25265861, 'open_rate': 310.09, 'close_rate': 316.59, 'current_rate': None, 'profit_amount': 1.38894321, 'profit_ratio': 0.0176998, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 43, 704779), 'close_date': datetime.datetime(2021, 5, 19, 21, 20, 40, 494418), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:20:40,504 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 21:20:40,512 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:20:43,885 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:20:43,888 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for GNO/EUR with stake_amount: 78.80526068249999 ...
+2021-05-19 21:20:43,888 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-19 21:20:46,771 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:20:46,772 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 64, 'type': buy, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'limit': 138.31, 'order_type': 'limit', 'stake_amount': 78.80526068249999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.56977268, 'open_date': datetime.datetime(2021, 5, 19, 21, 20, 46, 745700), 'current_rate': 138.31}
+2021-05-19 21:21:44,352 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=2021-05-19 21:20:46)
+2021-05-19 21:21:44,355 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=2021-05-19 21:20:46) [buy]: 0.12608841 EUR - rate: 0.0016
+2021-05-19 21:21:44,355 - freqtrade.persistence.models - INFO - Updating trade (id=64) ...
+2021-05-19 21:21:44,356 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=2021-05-19 21:20:46).
+2021-05-19 21:21:44,365 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 64, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'open_rate': 138.31, 'stake_amount': 78.80526068249999, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.56977268, 'open_date': datetime.datetime(2021, 5, 19, 21, 20, 46, 745700)}
+2021-05-19 21:21:44,366 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-19 21:21:50,556 - freqtrade.freqtradebot - INFO - Executing Sell for GNO/EUR. Reason: roi
+2021-05-19 21:21:50,575 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:21:50,600 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 64, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 144.63, 'order_type': 'limit', 'amount': 0.56977268, 'open_rate': 138.31, 'close_rate': None, 'current_rate': 144.63, 'profit_amount': 3.34302497, 'profit_ratio': 0.04235358, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 21, 20, 46, 745700), 'close_date': datetime.datetime(2021, 5, 19, 21, 21, 50, 600254), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:21:50,676 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:21:50,681 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:22:01,312 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LSK/EUR due to RequestTimeout. Message: kraken GET https://api.kraken.com/0/public/OHLC?pair=LSKEUR&interval=1"
+2021-05-19 21:22:01,313 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-05-19 21:22:41,934 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=2021-05-19 21:20:46)
+2021-05-19 21:22:41,937 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=2021-05-19 21:20:46) [sell]: 0.13184996 EUR - rate: 0.0016
+2021-05-19 21:22:41,938 - freqtrade.persistence.models - INFO - Updating trade (id=64) ...
+2021-05-19 21:22:41,938 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=2021-05-19 21:20:46).
+2021-05-19 21:22:41,939 - freqtrade.persistence.models - INFO - Marking Trade(id=64, pair=GNO/EUR, amount=0.56977268, open_rate=138.31000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 21:22:41,949 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 64, 'exchange': 'Kraken', 'pair': 'GNO/EUR', 'gain': 'profit', 'limit': 144.63, 'order_type': '', 'amount': 0.56977268, 'open_rate': 138.31, 'close_rate': 144.63, 'current_rate': None, 'profit_amount': 3.34302497, 'profit_ratio': 0.04235358, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 21, 20, 46, 745700), 'close_date': datetime.datetime(2021, 5, 19, 21, 22, 41, 939291), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:22:41,950 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 21:22:41,956 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:22:45,365 - freqtrade.freqtradebot - INFO - Pair GNO/EUR is still locked until 2021-05-19 21:22:00 due to Auto lock.
+2021-05-19 21:23:37,841 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:24:40,224 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:26:40,974 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:28:38,768 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:29:40,982 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:31:38,536 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:32:43,616 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:34:38,460 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:35:40,549 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:37:38,131 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:38:40,288 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:39:49,788 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:41:38,369 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:42:40,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:44:41,179 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:46:39,125 - freqtrade.freqtradebot - INFO - Executing Sell for ALGO/EUR. Reason: roi
+2021-05-19 21:46:39,143 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:46:39,168 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 62, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'gain': 'profit', 'limit': 0.79996, 'order_type': 'limit', 'amount': 99.63363568, 'open_rate': 0.78635, 'close_rate': None, 'current_rate': 0.79996, 'profit_amount': 1.10313405, 'profit_ratio': 0.01405763, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 40, 705521), 'close_date': datetime.datetime(2021, 5, 19, 21, 46, 39, 168608), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:46:39,300 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:46:39,612 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:47:37,476 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=2021-05-19 21:16:40)
+2021-05-19 21:47:37,479 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=2021-05-19 21:16:40) [sell]: 0.12752468 EUR - rate: 0.0016
+2021-05-19 21:47:37,479 - freqtrade.persistence.models - INFO - Updating trade (id=62) ...
+2021-05-19 21:47:37,480 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=2021-05-19 21:16:40).
+2021-05-19 21:47:37,480 - freqtrade.persistence.models - INFO - Marking Trade(id=62, pair=ALGO/EUR, amount=99.63363568, open_rate=0.78635000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-19 21:47:37,488 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 62, 'exchange': 'Kraken', 'pair': 'ALGO/EUR', 'gain': 'profit', 'limit': 0.79996, 'order_type': '', 'amount': 99.63363568, 'open_rate': 0.78635, 'close_rate': 0.79996, 'current_rate': None, 'profit_amount': 1.10313405, 'profit_ratio': 0.01405763, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 19, 21, 16, 40, 705521), 'close_date': datetime.datetime(2021, 5, 19, 21, 47, 37, 480521), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-19 21:47:37,489 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-19 21:47:37,647 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-19 21:48:36,785 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:49:38,946 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-19 21:51:36,631 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
