@@ -1,0 +1,1024 @@
+2021-05-22 09:12:57,097 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:12:57,099 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:12:57,099 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:12:57,099 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:12:57,100 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:12:57,100 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:12:57,123 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:12:57,125 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:12:57,125 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:12:57,131 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:12:57,132 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:12:57,132 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:12:57,205 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:12:57,205 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:12:57,206 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:12:57,207 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:12:57,207 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:12:57,208 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:12:57,208 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:12:57,208 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:12:57,209 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:12:57,209 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:12:57,210 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:12:57,210 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:12:57,210 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:12:57,211 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:12:57,211 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:12:57,212 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:12:57,212 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:12:57,212 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:12:57,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:12:57,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:12:57,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:12:57,214 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:12:57,216 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:12:57,216 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:12:57,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:12:57,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:12:57,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:12:57,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:12:57,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:12:57,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:12:57,220 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:12:57,224 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:12:57,225 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:12:57,228 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:12:57,232 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:13:00,431 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:13:06,440 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:13:06,441 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:13:12,235 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:13:12,235 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:13:12,236 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:13:12,236 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:13:12,236 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:13:12,237 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:13:12,257 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:13:12,258 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:13:12,259 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:13:12,265 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:13:12,265 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:13:12,267 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:13:12,340 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:13:12,341 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:13:12,341 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:13:12,342 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:13:12,343 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:13:12,343 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:13:12,343 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:13:12,344 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:13:12,344 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:13:12,345 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:13:12,345 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:13:12,345 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:13:12,346 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:13:12,346 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:13:12,346 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:13:12,347 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:13:12,347 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:13:12,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:13:12,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:13:12,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:13:12,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:13:12,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:13:12,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:13:12,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:13:12,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:13:12,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:13:12,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:13:12,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:13:12,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:13:12,352 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:13:12,353 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:13:12,357 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:13:12,358 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:13:12,361 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:13:12,366 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:13:15,585 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:13:21,573 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:13:21,574 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:13:27,415 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:13:27,416 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:13:27,416 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:13:27,417 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:13:27,417 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:13:27,417 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:13:27,439 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:13:27,440 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:13:27,441 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:13:27,447 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:13:27,447 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:13:27,448 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:13:27,522 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:13:27,523 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:13:27,524 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:13:27,525 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:13:27,526 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:13:27,526 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:13:27,527 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:13:27,527 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:13:27,529 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:13:27,530 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:13:27,530 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:13:27,530 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:13:27,531 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:13:27,531 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:13:27,532 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:13:27,532 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:13:27,532 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:13:27,533 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:13:27,533 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:13:27,534 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:13:27,534 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:13:27,534 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:13:27,535 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:13:27,535 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:13:27,536 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:13:27,536 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:13:27,536 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:13:27,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:13:27,537 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:13:27,538 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:13:27,538 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:13:27,542 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:13:27,543 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:13:27,547 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:13:27,551 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:13:30,776 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:13:36,757 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:13:36,758 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:13:42,512 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:13:42,512 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:13:42,513 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:13:42,513 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:13:42,514 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:13:42,514 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:13:42,533 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:13:42,535 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:13:42,535 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:13:42,541 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:13:42,542 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:13:42,542 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:13:42,617 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:13:42,617 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:13:42,618 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:13:42,619 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:13:42,619 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:13:42,620 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:13:42,620 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:13:42,621 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:13:42,621 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:13:42,622 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:13:42,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:13:42,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:13:42,623 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:13:42,623 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:13:42,623 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:13:42,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:13:42,627 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:13:42,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:13:42,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:13:42,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:13:42,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:13:42,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:13:42,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:13:42,629 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:13:42,638 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:13:42,639 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:13:42,643 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:13:42,647 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:13:45,883 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:13:51,852 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:13:51,853 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:13:57,518 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:13:57,519 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:13:57,519 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:13:57,520 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:13:57,520 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:13:57,522 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:13:57,541 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:13:57,543 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:13:57,543 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:13:57,549 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:13:57,550 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:13:57,550 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:13:57,623 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:13:57,623 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:13:57,624 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:13:57,625 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:13:57,626 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:13:57,626 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:13:57,626 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:13:57,627 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:13:57,627 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:13:57,628 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:13:57,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:13:57,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:13:57,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:13:57,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:13:57,630 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:13:57,630 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:13:57,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:13:57,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:13:57,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:13:57,632 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:13:57,632 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:13:57,633 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:13:57,633 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:13:57,634 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:13:57,634 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:13:57,634 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:13:57,635 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:13:57,635 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:13:57,636 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:13:57,636 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:13:57,636 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:13:57,641 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:13:57,641 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:13:57,645 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:13:57,649 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:14:00,855 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:14:06,864 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:14:06,866 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:14:13,740 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:14:13,741 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:14:13,741 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:14:13,741 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:14:13,742 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:14:13,742 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:14:13,763 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:14:13,765 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:14:13,765 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:14:13,772 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:14:13,772 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:14:13,773 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:14:13,852 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:14:13,853 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:14:13,853 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:14:13,856 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:14:13,856 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:14:13,856 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:14:13,857 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:14:13,857 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:14:13,858 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:14:13,858 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:14:13,858 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:14:13,859 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:14:13,859 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:14:13,859 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:14:13,860 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:14:13,860 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:14:13,861 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:14:13,861 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:14:13,861 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:14:13,862 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:14:13,862 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:14:13,862 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:14:13,863 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:14:13,863 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:14:13,864 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:14:13,864 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:14:13,864 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:14:13,865 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:14:13,865 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:14:13,866 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:14:13,866 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:14:13,871 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:14:13,871 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:14:13,875 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:14:13,879 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:31:20,026 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:31:20,031 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2021-05-22 09:31:20,031 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:31:20,032 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2021-05-22 09:31:20,032 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:31:20,032 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:31:20,053 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:31:20,054 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:31:20,054 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:31:20,061 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:31:20,061 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:31:20,061 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:31:20,140 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:31:20,140 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:31:20,141 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:31:20,142 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:31:20,142 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:31:20,142 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:31:20,143 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:31:20,143 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:31:20,144 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:31:20,144 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:31:20,144 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:31:20,145 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:31:20,145 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:31:20,146 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:31:20,146 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:31:20,146 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:31:20,147 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:31:20,147 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:31:20,148 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:31:20,148 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:31:20,149 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:31:20,149 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:31:20,149 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:31:20,150 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:31:20,150 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:31:20,151 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:31:20,151 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:31:20,152 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:31:20,152 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:31:20,153 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:31:20,153 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:31:20,159 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2021-05-22 09:31:20,159 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:31:20,160 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:31:20,164 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:31:20,169 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:31:23,405 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:31:23,485 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:31:23,491 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-05-22 09:31:23,492 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-05-22 09:31:23,624 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-05-22 09:31:23,878 - apscheduler.scheduler - INFO - Scheduler started
+2021-05-22 09:31:25,517 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-05-22 09:31:25,518 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2021-05-22 09:31:26,723 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2021-05-22 09:31:26,728 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2021-05-22 09:31:26,728 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2021-05-22 09:31:26,729 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2021-05-22 09:31:26,782 - uvicorn.error - INFO - Started server process [1]
+2021-05-22 09:31:26,789 - uvicorn.error - INFO - Waiting for application startup.
+2021-05-22 09:31:26,790 - uvicorn.error - INFO - Application startup complete.
+2021-05-22 09:31:26,791 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2021-05-22 09:31:26,796 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-05-22 09:31:26,905 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-05-22 09:31:26,907 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-05-22 09:31:26,958 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `kraken`\n*Stake per trade:* `unlimited EUR`\n*Minimum ROI:* `{'0': 0.0125}`\n*Stoploss:* `-0.05`\n*Timeframe:* `1m`\n*Strategy:* `BinHV45`"}
+2021-05-22 09:31:27,010 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for EUR pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-05-22 09:32:57,905 - numexpr.utils - INFO - NumExpr defaulting to 1 threads.
+2021-05-22 09:32:58,862 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-da5e832a', state='RUNNING'
+2021-05-22 09:34:06,990 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:34:06,990 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:34:06,991 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:34:06,991 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:34:06,992 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:34:06,992 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:34:07,016 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:34:07,018 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:34:07,019 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:34:07,025 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:34:07,026 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:34:07,026 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:34:07,108 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:34:07,109 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:34:07,110 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:34:07,110 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:34:07,111 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:34:07,111 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:34:07,112 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:34:07,112 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:34:07,113 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:34:07,113 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:34:07,113 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:34:07,114 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:34:07,114 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:34:07,115 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:34:07,115 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:34:07,115 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:34:07,116 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:34:07,116 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:34:07,118 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:34:07,119 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:34:07,119 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:34:07,120 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:34:07,120 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:34:07,121 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:34:07,121 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:34:07,122 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:34:07,122 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:34:07,122 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:34:07,123 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:34:07,123 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:34:07,124 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:34:07,129 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:34:07,130 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:34:07,134 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:34:07,139 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:34:10,332 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:34:16,334 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:34:16,335 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:34:23,234 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:34:23,234 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:34:23,235 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:34:23,235 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:34:23,236 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:34:23,236 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:34:23,258 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:34:23,260 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:34:23,260 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:34:23,267 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:34:23,268 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:34:23,268 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:34:23,339 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:34:23,340 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:34:23,341 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:34:23,341 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:34:23,342 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:34:23,342 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:34:23,342 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:34:23,343 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:34:23,343 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:34:23,343 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:34:23,344 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:34:23,344 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:34:23,344 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:34:23,345 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:34:23,345 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:34:23,346 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:34:23,346 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:34:23,346 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:34:23,347 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:34:23,347 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:34:23,347 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:34:23,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:34:23,348 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:34:23,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:34:23,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:34:23,349 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:34:23,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:34:23,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:34:23,350 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:34:23,351 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:34:23,351 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:34:23,356 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:34:23,356 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:34:23,360 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:34:23,365 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:34:26,572 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:34:32,569 - freqtrade.commands.trade_commands - ERROR - 'NoneType' object does not support item assignment
+2021-05-22 09:34:32,570 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 18, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 35, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 52, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 76, in __init__
+    self.wallets = Wallets(self.config, self.exchange)
+  File "/freqtrade/freqtrade/wallets.py", line 37, in __init__
+    self.update()
+  File "/freqtrade/freqtrade/wallets.py", line 124, in update
+    self._update_live()
+  File "/freqtrade/freqtrade/wallets.py", line 99, in _update_live
+    balances = self._exchange.get_balances()
+  File "/freqtrade/freqtrade/exchange/common.py", line 89, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/kraken.py", line 56, in get_balances
+    balances[bal]['used'] = sum(order[1] for order in order_list if order[0] == bal)
+TypeError: 'NoneType' object does not support item assignment
+2021-05-22 09:34:38,977 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:34:38,977 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:34:38,978 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:34:38,978 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:34:38,978 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:34:38,979 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:34:38,997 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:34:38,998 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:34:38,999 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:34:39,005 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:34:39,006 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:34:39,006 - freqtrade.freqtradebot - INFO - Starting freqtrade docker-da5e832a
+2021-05-22 09:34:39,085 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:34:39,086 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:34:39,087 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:34:39,088 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:34:39,089 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:34:39,090 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:34:39,090 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:34:39,091 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:34:39,091 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:34:39,091 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:34:39,092 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:34:39,092 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:34:39,093 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:34:39,093 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:34:39,093 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:34:39,094 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:34:39,094 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:34:39,094 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:34:39,095 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:34:39,095 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:34:39,096 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:34:39,096 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:34:39,096 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:34:39,097 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:34:39,097 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:34:39,097 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:34:39,098 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:34:39,098 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:34:39,098 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:34:39,099 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:34:39,099 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:34:39,103 - freqtrade.exchange.exchange - INFO - Using CCXT 1.49.30
+2021-05-22 09:34:39,104 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:34:39,108 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:34:39,112 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:42:20,855 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:42:20,856 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:42:20,857 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:42:20,858 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:42:20,858 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:42:20,859 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:42:20,877 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:42:20,878 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:42:20,879 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:42:20,884 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:42:20,885 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:42:20,885 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.4
+2021-05-22 09:42:20,957 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:42:20,958 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:42:20,959 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:42:20,959 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:42:20,960 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:42:20,960 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:42:20,961 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:42:20,961 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:42:20,961 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:42:20,962 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:42:20,962 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:42:20,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:42:20,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:42:20,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:42:20,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:42:20,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:42:20,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:42:20,965 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:42:20,965 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:42:20,966 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:42:20,966 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:42:20,966 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:42:20,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:42:20,967 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:42:20,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:42:20,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:42:20,968 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:42:20,969 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:42:20,969 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:42:20,970 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:42:20,970 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:42:20,974 - freqtrade.exchange.exchange - INFO - Using CCXT 1.48.76
+2021-05-22 09:42:20,975 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:42:20,979 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:42:20,983 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:42:24,185 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:42:30,190 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:42:30,196 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-05-22 09:42:30,197 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-05-22 09:42:30,333 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-05-22 09:42:30,580 - apscheduler.scheduler - INFO - Scheduler started
+2021-05-22 09:42:30,685 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-05-22 09:42:30,686 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2021-05-22 09:42:31,567 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2021-05-22 09:42:31,568 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2021-05-22 09:42:31,569 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2021-05-22 09:42:31,569 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2021-05-22 09:42:31,591 - uvicorn.error - INFO - Started server process [1]
+2021-05-22 09:42:31,592 - uvicorn.error - INFO - Waiting for application startup.
+2021-05-22 09:42:31,593 - uvicorn.error - INFO - Application startup complete.
+2021-05-22 09:42:31,594 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2021-05-22 09:42:31,596 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-05-22 09:42:31,712 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-05-22 09:42:31,714 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `kraken`\n*Stake per trade:* `unlimited EUR`\n*Minimum ROI:* `{'0': 0.0125}`\n*Stoploss:* `-0.05`\n*Timeframe:* `1m`\n*Strategy:* `BinHV45`"}
+2021-05-22 09:42:31,770 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for EUR pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-05-22 09:42:31,876 - freqtrade.freqtradebot - INFO - Updating 0 open orders.
+2021-05-22 09:43:10,928 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 09:43:10,933 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 09:45:24,145 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-05-22 09:45:24,145 - freqtrade.configuration.configuration - INFO - Runmode set to live.
+2021-05-22 09:45:24,146 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-05-22 09:45:24,146 - freqtrade.configuration.configuration - INFO - Dry run is disabled
+2021-05-22 09:45:24,146 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3_binhv45.live.sqlite"
+2021-05-22 09:45:24,147 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-05-22 09:45:24,167 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-05-22 09:45:24,169 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/kraken ...
+2021-05-22 09:45:24,169 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-05-22 09:45:24,175 - freqtrade.configuration.check_exchange - INFO - Exchange "kraken" is officially supported by the Freqtrade development team.
+2021-05-22 09:45:24,176 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-05-22 09:45:24,176 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.4
+2021-05-22 09:45:24,250 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy BinHV45 from '/freqtrade/user_data/strategies/BinHV45.py'...
+2021-05-22 09:45:24,251 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2021-05-22 09:45:24,252 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2021-05-22 09:45:24,252 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 1m.
+2021-05-22 09:45:24,253 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: EUR.
+2021-05-22 09:45:24,253 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2021-05-22 09:45:24,253 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-05-22 09:45:24,254 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-05-22 09:45:24,254 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-05-22 09:45:24,255 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-05-22 09:45:24,255 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0125}
+2021-05-22 09:45:24,255 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2021-05-22 09:45:24,256 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2021-05-22 09:45:24,256 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-05-22 09:45:24,257 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-05-22 09:45:24,257 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-05-22 09:45:24,258 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-05-22 09:45:24,258 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-05-22 09:45:24,258 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2021-05-22 09:45:24,261 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-05-22 09:45:24,261 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: EUR
+2021-05-22 09:45:24,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2021-05-22 09:45:24,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2021-05-22 09:45:24,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-05-22 09:45:24,263 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-05-22 09:45:24,263 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-05-22 09:45:24,264 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-05-22 09:45:24,264 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-05-22 09:45:24,264 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-05-22 09:45:24,265 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-05-22 09:45:24,265 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-05-22 09:45:24,270 - freqtrade.exchange.exchange - INFO - Using CCXT 1.48.76
+2021-05-22 09:45:24,271 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-05-22 09:45:24,275 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 3100}
+2021-05-22 09:45:24,279 - freqtrade.exchange.exchange - INFO - Using Exchange "Kraken"
+2021-05-22 09:45:27,523 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Kraken'...
+2021-05-22 09:45:33,501 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:45:33,507 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-05-22 09:45:33,508 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-05-22 09:45:33,653 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-05-22 09:45:33,906 - apscheduler.scheduler - INFO - Scheduler started
+2021-05-22 09:45:33,995 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-05-22 09:45:33,996 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2021-05-22 09:45:34,878 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2021-05-22 09:45:34,880 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2021-05-22 09:45:34,880 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2021-05-22 09:45:34,880 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2021-05-22 09:45:34,904 - uvicorn.error - INFO - Started server process [1]
+2021-05-22 09:45:34,906 - uvicorn.error - INFO - Waiting for application startup.
+2021-05-22 09:45:34,907 - uvicorn.error - INFO - Application startup complete.
+2021-05-22 09:45:34,908 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2021-05-22 09:45:34,909 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-05-22 09:45:35,033 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-05-22 09:45:35,034 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `kraken`\n*Stake per trade:* `unlimited EUR`\n*Minimum ROI:* `{'0': 0.0125}`\n*Stoploss:* `-0.05`\n*Timeframe:* `1m`\n*Strategy:* `BinHV45`"}
+2021-05-22 09:45:35,096 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for EUR pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-05-22 09:45:35,220 - freqtrade.freqtradebot - INFO - Updating 0 open orders.
+2021-05-22 09:45:40,399 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 174903689
+2021-05-22 09:45:40,644 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 09:45:40,645 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 09:46:53,004 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 09:46:53,014 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 09:47:00,266 - numexpr.utils - INFO - NumExpr defaulting to 1 threads.
+2021-05-22 09:47:01,106 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:47:06,672 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 09:47:06,673 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 09:47:58,890 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 203, in expect_nothing
+    raise LocalProtocolError("Got data when expecting EOF")
+h11._util.RemoteProtocolError: Got data when expecting EOF
+2021-05-22 09:48:08,987 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2021-05-22 09:48:14,054 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2021-05-22 09:48:30,952 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:49:32,529 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:51:30,504 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:53:34,445 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:53:34,451 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for EWT/EUR with stake_amount: 21.810624 ...
+2021-05-22 09:53:34,451 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-22 09:53:46,470 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:53:46,478 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': buy, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'limit': 7.242, 'order_type': 'limit', 'stake_amount': 21.810624, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 3.01168516, 'open_date': datetime.datetime(2021, 5, 22, 9, 53, 40, 456856), 'current_rate': 7.242}
+2021-05-22 09:53:46,793 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:54:44,287 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40)
+2021-05-22 09:54:49,331 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 174903689
+2021-05-22 09:54:49,333 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 09:54:49,333 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 09:55:27,628 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 09:55:27,629 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 09:55:30,673 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40)
+2021-05-22 09:55:30,986 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:56:32,913 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40)
+2021-05-22 09:56:33,195 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:57:28,570 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40)
+2021-05-22 09:57:36,531 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 203, in expect_nothing
+    raise LocalProtocolError("Got data when expecting EOF")
+h11._util.RemoteProtocolError: Got data when expecting EOF
+2021-05-22 09:57:46,622 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2021-05-22 09:57:51,690 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2021-05-22 09:58:33,647 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40)
+2021-05-22 09:58:33,649 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40) [buy]: 0.034 EUR - rate: 0.00155892
+2021-05-22 09:58:33,650 - freqtrade.persistence.models - INFO - Updating trade (id=1) ...
+2021-05-22 09:58:33,650 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40).
+2021-05-22 09:58:33,666 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'open_rate': 7.242, 'stake_amount': 21.810624, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 3.01168516, 'open_date': datetime.datetime(2021, 5, 22, 9, 53, 40, 456856)}
+2021-05-22 09:58:33,667 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-22 09:58:36,789 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 09:59:29,483 - freqtrade.freqtradebot - INFO - Executing Sell for EWT/EUR. Reason: roi
+2021-05-22 09:59:35,480 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:59:38,523 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 1, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'gain': 'profit', 'limit': 7.372, 'order_type': 'limit', 'amount': 3.01168516, 'open_rate': 7.242, 'close_rate': None, 'current_rate': 7.372, 'profit_amount': 0.32290669, 'profit_ratio': 0.01478197, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 22, 9, 53, 40, 456856), 'close_date': datetime.datetime(2021, 5, 22, 9, 59, 38, 523903), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-22 09:59:44,488 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 09:59:44,769 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:00:42,467 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40)
+2021-05-22 10:00:42,472 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40) [sell]: 0.035 EUR - rate: 0.00157643
+2021-05-22 10:00:42,473 - freqtrade.persistence.models - INFO - Updating trade (id=1) ...
+2021-05-22 10:00:42,474 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=2021-05-22 09:53:40).
+2021-05-22 10:00:42,474 - freqtrade.persistence.models - INFO - Marking Trade(id=1, pair=EWT/EUR, amount=3.01168516, open_rate=7.24200000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-22 10:00:42,488 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 1, 'exchange': 'Kraken', 'pair': 'EWT/EUR', 'gain': 'profit', 'limit': 7.372, 'order_type': '', 'amount': 3.01168516, 'open_rate': 7.242, 'close_rate': 7.372, 'current_rate': None, 'profit_amount': 0.32251793, 'profit_ratio': 0.01476418, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 22, 9, 53, 40, 456856), 'close_date': datetime.datetime(2021, 5, 22, 10, 0, 42, 474787), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-22 10:00:42,489 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-22 10:00:48,452 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 10:00:48,574 - freqtrade.freqtradebot - INFO - Pair EWT/EUR is still locked until 2021-05-22 10:00:00 due to Auto lock.
+2021-05-22 10:00:48,817 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:02:29,751 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:04:33,802 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 10:04:33,806 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade for KSM/EUR with stake_amount: 21.916586999999996 ...
+2021-05-22 10:04:33,807 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-05-22 10:04:45,789 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 10:04:45,793 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': buy, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'limit': 268.26, 'order_type': 'limit', 'stake_amount': 21.916586999999996, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.08169904, 'open_date': datetime.datetime(2021, 5, 22, 10, 4, 39, 792189), 'current_rate': 268.26}
+2021-05-22 10:04:46,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:05:40,537 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.26000000, open_since=2021-05-22 10:04:39)
+2021-05-22 10:05:40,541 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.26000000, open_since=2021-05-22 10:04:39) [buy]: 0.03 EUR - rate: 0.00136924
+2021-05-22 10:05:40,542 - freqtrade.persistence.models - INFO - Updating trade (id=2) ...
+2021-05-22 10:05:40,543 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=2021-05-22 10:04:39).
+2021-05-22 10:05:40,557 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': buy_fill, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'open_rate': 268.25, 'stake_amount': 21.916586999999996, 'stake_currency': 'EUR', 'fiat_currency': 'EUR', 'amount': 0.08169904, 'open_date': datetime.datetime(2021, 5, 22, 10, 4, 39, 792189)}
+2021-05-22 10:05:40,558 - freqtrade.rpc.telegram - INFO - Notification 'buy_fill' not sent.
+2021-05-22 10:06:30,239 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:08:31,204 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:10:29,028 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:11:30,968 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:12:33,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:12:52,604 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 10:12:52,605 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 10:14:30,828 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:16:31,722 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:18:29,517 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:19:31,535 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:21:29,405 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:22:31,378 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:24:29,043 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:25:31,714 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:26:29,659 - freqtrade.freqtradebot - INFO - Executing Sell for KSM/EUR. Reason: roi
+2021-05-22 10:26:35,682 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 10:26:38,739 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 2, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 273.06, 'order_type': 'limit', 'amount': 0.08169904, 'open_rate': 268.25, 'close_rate': None, 'current_rate': 273.06, 'profit_amount': 0.33241842, 'profit_ratio': 0.01514726, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 22, 10, 4, 39, 792189), 'close_date': datetime.datetime(2021, 5, 22, 10, 26, 38, 739397), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-22 10:26:44,701 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 10:26:44,983 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:27:42,435 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=2021-05-22 10:04:39)
+2021-05-22 10:28:28,931 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=2021-05-22 10:04:39)
+2021-05-22 10:28:29,241 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:29:30,905 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=2021-05-22 10:04:39)
+2021-05-22 10:29:30,911 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=2021-05-22 10:04:39) [sell]: 0.03 EUR - rate: 0.00134529
+2021-05-22 10:29:30,912 - freqtrade.persistence.models - INFO - Updating trade (id=2) ...
+2021-05-22 10:29:30,912 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=2021-05-22 10:04:39).
+2021-05-22 10:29:30,913 - freqtrade.persistence.models - INFO - Marking Trade(id=2, pair=KSM/EUR, amount=0.08169904, open_rate=268.25000000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-05-22 10:29:30,925 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell_fill, 'trade_id': 2, 'exchange': 'Kraken', 'pair': 'KSM/EUR', 'gain': 'profit', 'limit': 273.06, 'order_type': '', 'amount': 0.08169904, 'open_rate': 268.25, 'close_rate': 273.06, 'current_rate': None, 'profit_amount': 0.33295271, 'profit_ratio': 0.01517161, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 5, 22, 10, 4, 39, 792189), 'close_date': datetime.datetime(2021, 5, 22, 10, 29, 30, 913803), 'stake_currency': 'EUR', 'fiat_currency': 'EUR'}
+2021-05-22 10:29:30,926 - freqtrade.rpc.telegram - INFO - Notification 'sell_fill' not sent.
+2021-05-22 10:29:36,906 - freqtrade.wallets - INFO - Wallets synced.
+2021-05-22 10:29:37,235 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:31:30,556 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:33:34,630 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:35:29,035 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:36:31,337 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:38:29,099 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:39:31,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:41:28,746 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:42:30,347 - freqtrade.strategy.interface - WARNING - Empty candle (OHLCV) data for pair FIL/EUR
+2021-05-22 10:42:30,832 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:43:32,866 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:45:30,672 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:46:35,689 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:48:30,467 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:50:31,248 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:52:32,081 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:54:29,955 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:56:29,650 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 10:56:29,651 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 10:56:30,902 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 10:56:30,912 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 10:56:31,088 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:56:46,881 - uvicorn.error - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 172, in handle_events
+    event = self.conn.next_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/home/ftuser/.local/lib/python3.9/site-packages/h11/_readers.py", line 203, in expect_nothing
+    raise LocalProtocolError("Got data when expecting EOF")
+h11._util.RemoteProtocolError: Got data when expecting EOF
+2021-05-22 10:56:58,689 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair ATOM.S.
+2021-05-22 10:56:58,690 - freqtrade.rpc.rpc - WARNING -  Could not get rate for pair KSM.S.
+2021-05-22 10:58:28,726 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 10:59:30,722 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 11:01:28,670 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 11:02:30,595 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 11:04:28,474 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 11:05:30,638 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
+2021-05-22 11:07:31,276 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.4', state='RUNNING'
