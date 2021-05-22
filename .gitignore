@@ -1,2 +1,4 @@
 user_data/backtest_results
 user_data/data/kraken
+user_data/backtest_results/.last_result.json
+user_data/data/kraken/OXT_EUR-trades.json.gz
