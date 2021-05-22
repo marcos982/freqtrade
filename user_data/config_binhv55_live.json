@@ -5,8 +5,7 @@
     "tradable_balance_ratio": 0.99,
     "fiat_display_currency": "EUR",
     "timeframe": "1m",
-    "dry_run": true,
-    "dry_run_wallet": 170,
+    "dry_run": false,
     "cancel_open_orders_on_exit": false,
     "unfilledtimeout": {
         "buy": 10,
@@ -33,8 +32,8 @@
     },
     "exchange": {
         "name": "kraken",
-        "key": "",
-        "secret": "",
+        "key": "5yQO89F4SPsvNRWmpjs0eoSjGONrCZrZeQn4dCMJGZcdyvBvuZvlOI6g",
+        "secret": "2EfliNUBWUEnb4Cj4NbYUxp/SWJkp5nRzn2G8cwiA4A8A54pl5H0vArwTBtOH3w3H7QBKq8g4DN/Ks1uuPjDxQ==",
         "ccxt_config": {"enableRateLimit": true},
         "ccxt_async_config": {
             "enableRateLimit": true,
@@ -47,9 +46,7 @@
     "ANT/EUR",
     "BAL/EUR",
     "BAT/EUR",
-    "CRV/EUR",
     "DAI/EUR",
-    "DOGE/EUR",
     "DOT/EUR",
     "EOS/EUR",
     "EWT/EUR",
@@ -108,21 +105,21 @@
     },
     "telegram": {
         "enabled": true,
-        "token": "1818825354:AAEVgYehTrwYGO0EXGCddt15nTHG9DnhLL8",
+        "token": "1881357779:AAHg1DIFOhiN3CQ00lYItgl6THd_I-6vKmo",
         "chat_id": "174903689"
     },
     "api_server": {
         "enabled": true,
         "listen_ip_address": "0.0.0.0",
-        "listen_port": 8081,
+        "listen_port": 8080,
         "verbosity": "error",
         "enable_openapi": false,
         "jwt_secret_key": "34f5521d6ebdfd8e617be5c691ebd362d2ff4e6736e706b20db282efee977c08",
         "CORS_origins": [],
-        "username": "test",
-        "password": "test"
+        "username": "admin",
+        "password": "benevento82"
     },
-    "bot_name": "freqtrade",
+    "bot_name": "freqtrade_binhv55_live",
     "initial_state": "running",
     "forcebuy_enable": false,
     "internals": {
