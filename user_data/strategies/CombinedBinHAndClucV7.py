@@ -155,7 +155,7 @@ class CombinedBinHAndClucV7(IStrategy):
     sell_roi_profit_3 = { 'value': 0.0 }
     sell_roi_rsi_3 = { 'value': 50 }
 
-    sell_rsi_main = { 'value': 88,96 }
+    sell_rsi_main = { 'value': 88.96 }
 
     def custom_stoploss(self, pair: str, trade: 'Trade', current_time: datetime,
                         current_rate: float, current_profit: float, **kwargs) -> float:
