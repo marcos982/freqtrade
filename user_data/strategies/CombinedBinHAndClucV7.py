@@ -53,11 +53,44 @@ def SSLChannels(dataframe, length = 7):
 class CombinedBinHAndClucV7(IStrategy):
     INTERFACE_VERSION = 2
 
-    minimal_roi = {
-        "0": 0.0181
+    # Buy hyperspace params:
+    buy_params = {
+        "buy_bb20_close_bblowerband": 0.994,
+        "buy_bb20_volume": 36,
+        "buy_bb40_bbdelta_close": 0.019,
+        "buy_bb40_closedelta_close": 0.014,
+        "buy_bb40_tail_bbdelta": 0.24,
+        "buy_mfi": 43.72,
+        "buy_min_inc": 0.05,
+        "buy_rsi": 30.42,
+        "buy_rsi_1h": 59.77,
+        "buy_rsi_diff": 57.83,
+        "buy_dip_threshold_1": 0.14,  # value loaded from strategy
+        "buy_dip_threshold_2": 0.34,  # value loaded from strategy
+        "buy_dip_threshold_3": 0.38,  # value loaded from strategy
     }
 
-    stoploss = -0.99 # effectively disabled.
+    # Sell hyperspace params:
+    sell_params = {
+        "sell_rsi_main": 88.69,
+        "sell_roi_profit_1": 0.1,  # value loaded from strategy
+        "sell_roi_profit_2": 0.03,  # value loaded from strategy
+        "sell_roi_profit_3": 0.0,  # value loaded from strategy
+        "sell_roi_rsi_1": 34,  # value loaded from strategy
+        "sell_roi_rsi_2": 38,  # value loaded from strategy
+        "sell_roi_rsi_3": 50,  # value loaded from strategy
+    }
+
+    # ROI table:
+    minimal_roi = {
+        "0": 0.157,
+        "27": 0.106,
+        "37": 0.04,
+        "101": 0
+    }
+
+    # Stoploss:
+    stoploss = -0.26
 
     timeframe = '5m'
     inf_1h = '1h' # informative tf
@@ -68,11 +101,12 @@ class CombinedBinHAndClucV7(IStrategy):
     sell_profit_offset = 0.001 # it doesn't meant anything, just to guarantee there is a minimal profit.
     ignore_roi_if_buy_signal = True
 
-    # Trailing stoploss
+    # Trailing stop:
     trailing_stop = True
-    trailing_only_offset_is_reached = True
-    trailing_stop_positive = 0.01
-    trailing_stop_positive_offset = 0.03
+    trailing_stop_positive = 0.02
+    trailing_stop_positive_offset = 0.098
+    trailing_only_offset_is_reached = False
+
 
     # Custom stoploss
     use_custom_stoploss = True
