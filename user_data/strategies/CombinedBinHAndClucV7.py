@@ -128,34 +128,34 @@ class CombinedBinHAndClucV7(IStrategy):
 
     # Buy Hyperopt params
 
-    buy_dip_threshold_1 = 0.14
-    buy_dip_threshold_2 = 0.34
-    buy_dip_threshold_3 = 0.38
+    buy_dip_threshold_1 = DecimalParameter(0.14)
+    buy_dip_threshold_2 = DecimalParameter(0.34)
+    buy_dip_threshold_3 = DecimalParameter(0.38)
 
-    buy_bb40_bbdelta_close = 0.019
-    buy_bb40_closedelta_close = 0.014
-    buy_bb40_tail_bbdelta = 0.24
+    buy_bb40_bbdelta_close = DecimalParameter(0.019)
+    buy_bb40_closedelta_close = DecimalParameter(0.014)
+    buy_bb40_tail_bbdelta = DecimalParameter(0.24)
 
-    buy_bb20_close_bblowerband = 0.994
-    buy_bb20_volume = 36
+    buy_bb20_close_bblowerband = DecimalParameter(0.994)
+    buy_bb20_volume = DecimalParameter(36)
 
-    buy_rsi_diff = 57.83
+    buy_rsi_diff = DecimalParameter(57.83)
 
-    buy_min_inc = 0.05
-    buy_rsi_1h = 59.77
-    buy_rsi = 30.42
-    buy_mfi = 43.72
+    buy_min_inc = DecimalParameter(0.05)
+    buy_rsi_1h = DecimalParameter(59.77)
+    buy_rsi = DecimalParameter(30.42)
+    buy_mfi = DecimalParameter(43.72)
 
     # Sell Hyperopt params
 
-    sell_roi_profit_1 = 0.1
-    sell_roi_rsi_1 = 34
-    sell_roi_profit_2 = 0.03
-    sell_roi_rsi_2 = 38
-    sell_roi_profit_3 = 0.0
-    sell_roi_rsi_3 = 50
+    sell_roi_profit_1 = DecimalParameter(0.1)
+    sell_roi_rsi_1 = DecimalParameter(34)
+    sell_roi_profit_2 = DecimalParameter(0.03)
+    sell_roi_rsi_2 = DecimalParameter(38)
+    sell_roi_profit_3 = DecimalParameter(0.0)
+    sell_roi_rsi_3 = DecimalParameter(0.0)
 
-    sell_rsi_main = 88.69
+    sell_rsi_main = DecimalParameter(88.69)
 
     def custom_stoploss(self, pair: str, trade: 'Trade', current_time: datetime,
                         current_rate: float, current_profit: float, **kwargs) -> float:
