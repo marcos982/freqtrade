@@ -128,34 +128,34 @@ class CombinedBinHAndClucV7(IStrategy):
 
     # Buy Hyperopt params
 
-    buy_dip_threshold_1 = DecimalParameter(0.14)
-    buy_dip_threshold_2 = DecimalParameter(0.34)
-    buy_dip_threshold_3 = DecimalParameter(0.38)
+    buy_dip_threshold_1 = { 'value': 0.14 }
+    buy_dip_threshold_2 = { 'value': 0.34 }
+    buy_dip_threshold_3 = { 'value': 0.38 }
 
-    buy_bb40_bbdelta_close = DecimalParameter(0.019)
-    buy_bb40_closedelta_close = DecimalParameter(0.014)
-    buy_bb40_tail_bbdelta = DecimalParameter(0.24)
+    buy_bb40_bbdelta_close = { 'value': 0.019 }
+    buy_bb40_closedelta_close = { 'value': 0.014 }
+    buy_bb40_tail_bbdelta = { 'value': 0.24 }
 
-    buy_bb20_close_bblowerband = DecimalParameter(0.994)
-    buy_bb20_volume = DecimalParameter(36)
+    buy_bb20_close_bblowerband = { 'value': 0.994 }
+    buy_bb20_volume = { 'value': 36 }
 
-    buy_rsi_diff = DecimalParameter(57.83)
+    buy_rsi_diff = { 'value': 57.83 }
 
-    buy_min_inc = DecimalParameter(0.05)
-    buy_rsi_1h = DecimalParameter(59.77)
-    buy_rsi = DecimalParameter(30.42)
-    buy_mfi = DecimalParameter(43.72)
+    buy_min_inc = { 'value': 0.04 }
+    buy_rsi_1h = { 'value': 59.77 }
+    buy_rsi = { 'value': 30.42 }
+    buy_mfi = { 'value': 43.72 }
 
     # Sell Hyperopt params
 
-    sell_roi_profit_1 = DecimalParameter(0.1)
-    sell_roi_rsi_1 = DecimalParameter(34)
-    sell_roi_profit_2 = DecimalParameter(0.03)
-    sell_roi_rsi_2 = DecimalParameter(38)
-    sell_roi_profit_3 = DecimalParameter(0.0)
-    sell_roi_rsi_3 = DecimalParameter(0.0)
+    sell_roi_profit_1 = { 'value': 0.1 }
+    sell_roi_rsi_1 = { 'value': 34 }
+    sell_roi_profit_2 = { 'value': 0.03 }
+    sell_roi_rsi_2 = { 'value': 38 }
+    sell_roi_profit_3 = { 'value': 0.0 }
+    sell_roi_rsi_3 = { 'value': 50 }
 
-    sell_rsi_main = DecimalParameter(88.69)
+    sell_rsi_main = { 'value': 88,96 }
 
     def custom_stoploss(self, pair: str, trade: 'Trade', current_time: datetime,
                         current_rate: float, current_profit: float, **kwargs) -> float:
