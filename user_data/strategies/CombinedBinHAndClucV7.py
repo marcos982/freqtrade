@@ -108,7 +108,6 @@ class CombinedBinHAndClucV7(IStrategy):
     trailing_only_offset_is_reached = False
 
 
-
     # Custom stoploss
     use_custom_stoploss = True
 
@@ -128,34 +127,34 @@ class CombinedBinHAndClucV7(IStrategy):
 
     # Buy Hyperopt params
 
-    buy_dip_threshold_1 = { 'value': 0.14 }
-    buy_dip_threshold_2 = { 'value': 0.34 }
-    buy_dip_threshold_3 = { 'value': 0.38 }
+    buy_dip_threshold_1 = DecimalParameter(0.08, 0.2, default=0.14, space='buy', decimals=2, optimize=False, load=True)
+    buy_dip_threshold_2 = DecimalParameter(0.02, 0.4, default=0.34, space='buy', decimals=2, optimize=False, load=True)
+    buy_dip_threshold_3 = DecimalParameter(0.25, 0.44, default=0.38, space='buy', decimals=2, optimize=False, load=True)
 
-    buy_bb40_bbdelta_close = { 'value': 0.019 }
-    buy_bb40_closedelta_close = { 'value': 0.014 }
-    buy_bb40_tail_bbdelta = { 'value': 0.24 }
+    buy_bb40_bbdelta_close = DecimalParameter(0.005, 0.04, default=0.031, space='buy', optimize=True, load=True)
+    buy_bb40_closedelta_close = DecimalParameter(0.01, 0.03, default=0.021, space='buy', optimize=True, load=True)
+    buy_bb40_tail_bbdelta = DecimalParameter(0.2, 0.4, default=0.264, space='buy', optimize=True, load=True)
 
-    buy_bb20_close_bblowerband = { 'value': 0.994 }
-    buy_bb20_volume = { 'value': 36 }
+    buy_bb20_close_bblowerband = DecimalParameter(0.8, 1.1, default=0.992, space='buy', optimize=True, load=True)
+    buy_bb20_volume = IntParameter(18, 36, default=29, space='buy', optimize=True, load=True)
 
-    buy_rsi_diff = { 'value': 57.83 }
+    buy_rsi_diff = DecimalParameter(34.0, 60.0, default=50.48, space='buy', decimals=2, optimize=True, load=True)
 
-    buy_min_inc = { 'value': 0.04 }
-    buy_rsi_1h = { 'value': 59.77 }
-    buy_rsi = { 'value': 30.42 }
-    buy_mfi = { 'value': 43.72 }
+    buy_min_inc = DecimalParameter(0.005, 0.05, default=0.01, space='buy', decimals=2, optimize=True, load=True)
+    buy_rsi_1h = DecimalParameter(40.0, 70.0, default=67.0, space='buy', decimals=2, optimize=True, load=True)
+    buy_rsi = DecimalParameter(30.0, 40.0, default=38.5, space='buy', decimals=2, optimize=True, load=True)
+    buy_mfi = DecimalParameter(36.0, 65.0, default=36.0, space='buy', decimals=2, optimize=True, load=True)
 
     # Sell Hyperopt params
 
-    sell_roi_profit_1 = { 'value': 0.1 }
-    sell_roi_rsi_1 = { 'value': 34 }
-    sell_roi_profit_2 = { 'value': 0.03 }
-    sell_roi_rsi_2 = { 'value': 38 }
-    sell_roi_profit_3 = { 'value': 0.0 }
-    sell_roi_rsi_3 = { 'value': 50 }
+    sell_roi_profit_1 = DecimalParameter(0.08, 0.16, default=0.1, space='sell', decimals=2, optimize=False, load=True)
+    sell_roi_rsi_1 = DecimalParameter(30.0, 38.0, default=34, space='sell', decimals=2, optimize=False, load=True)
+    sell_roi_profit_2 = DecimalParameter(0.02, 0.05, default=0.03, space='sell', decimals=2, optimize=False, load=True)
+    sell_roi_rsi_2 = DecimalParameter(34.0, 44.0, default=38, space='sell', decimals=2, optimize=False, load=True)
+    sell_roi_profit_3 = DecimalParameter(0.0, 0.0, default=0.0, space='sell', decimals=2, optimize=False, load=True)
+    sell_roi_rsi_3 = DecimalParameter(48.0, 56.0, default=50, space='sell', decimals=2, optimize=False, load=True)
 
-    sell_rsi_main = { 'value': 88.96 }
+    sell_rsi_main = DecimalParameter(72.0, 90.0, default=77, space='sell', decimals=2, optimize=True, load=True)
 
     def custom_stoploss(self, pair: str, trade: 'Trade', current_time: datetime,
                         current_rate: float, current_profit: float, **kwargs) -> float:
