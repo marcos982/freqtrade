@@ -96,12 +96,7 @@
         ]
     },
     "pairlists": [
-		{
-        "method": "VolumePairList",
-        "number_assets": 50,
-        "sort_key": "quoteVolume",
-        "refresh_period": 1800
-}
+	    { "method": "StaticPairList" }
     ],
     "edge": {
         "enabled": false,
