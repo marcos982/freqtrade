@@ -2,7 +2,7 @@
 version: '3'
 services:
   freqtrade:
-    image: freqtrade_ta
+          image: freqtrade_ta:develop
     # image: freqtradeorg/freqtrade:stable
     # image: freqtradeorg/freqtrade:develop
     # Use plotting image
@@ -24,7 +24,7 @@ services:
     # Default command used when running `docker compose up`
     command: >
       trade
-      --logfile /freqtrade/user_data/logs/freqtrade_hv45.log
-      --db-url sqlite:////freqtrade/user_data/tradesv3_binhv45.dryrun.sqlite
+      --logfile /freqtrade/user_data/logs/freqtrade_hv45_dryrun.log
+      --db-url sqlite:////freqtrade/user_data/tradesv3_binhv45.dryrun.new.sqlite
       --config /freqtrade/user_data/config_001_new.json
-      --strategy BinHV45
+      --strategy CombinedBinHAndClucV7
